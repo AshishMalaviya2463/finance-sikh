@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'; import SwpCalculator from '../../components/calculators/SwpCalculator.astro';
+---
+<BaseLayout title="SWP calculator" description="Model illustrative monthly withdrawals using transparent assumptions."><section class="wrap py-12"><h1 class="mb-6 text-4xl font-bold">SWP calculator</h1><SwpCalculator /><article class="prose max-w-3xl"><h2>How this estimate works</h2><p>Each month, the remaining corpus first receives the assumed monthly return; then the withdrawal is deducted. The simulation stops if the requested withdrawal cannot be paid in full.</p><h2>What it does not model</h2><p>Taxes, exit load, expense ratios, inflation and variable market returns can materially change outcomes. Withdrawals may deplete capital.</p></article></section></BaseLayout>

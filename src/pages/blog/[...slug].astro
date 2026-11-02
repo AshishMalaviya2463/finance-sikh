@@ -1,0 +1,6 @@
+---
+import { getCollection, render } from 'astro:content'; import BaseLayout from '../../layouts/BaseLayout.astro';
+export async function getStaticPaths() { return (await getCollection('blog')).map(post => ({ params: { slug: post.id.replace(/\.md$/, '') }, props: { post } })); }
+const { post } = Astro.props; const { Content } = await render(post);
+---
+<BaseLayout title={post.data.title} description={post.data.description}><article class="wrap prose py-12"><p class="text-sm text-slate-600">By {post.data.authorName} · First published {post.data.pubDate.toLocaleDateString('en-IN')}{post.data.updatedDate && ` · Updated ${post.data.updatedDate.toLocaleDateString('en-IN')}`}</p><h1 class="text-4xl font-bold">{post.data.title}</h1><p class="text-xl">{post.data.description}</p><Content /><section><h2>Sources</h2><ul>{post.data.sources.map(source => <li><a href={source.url}>{source.name}</a></li>)}</ul></section><p class="rounded-lg bg-slate-100 p-4 text-sm">Educational information only. Verify current rules and consider qualified advice for personal decisions.</p></article></BaseLayout>

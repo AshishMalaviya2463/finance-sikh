@@ -1,0 +1,1 @@
+export function positive(value: number, label: string, allowZero = false): string | null { if (!Number.isFinite(value) || (allowZero ? value < 0 : value <= 0)) return `${label} must be ${allowZero ? 'zero or greater' : 'greater than zero'}.`; return null; }

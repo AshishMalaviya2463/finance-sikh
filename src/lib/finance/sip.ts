@@ -1,0 +1,3 @@
+import { positive } from './validation';
+export interface SipInput { monthlyInvestment: number; annualRate: number; years: number }
+export function calculateSip(input: SipInput) { const error = positive(input.monthlyInvestment, 'Monthly investment') || positive(input.annualRate, 'Annual return', true) || positive(input.years, 'Duration'); if (error) throw new Error(error); const months = input.years * 12; const rate = input.annualRate / 100 / 12; const invested = input.monthlyInvestment * months; const futureValue = rate === 0 ? invested : input.monthlyInvestment * (((1 + rate) ** months - 1) / rate); return { months, invested, futureValue, gain: futureValue - invested }; }
