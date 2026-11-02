@@ -2,7 +2,7 @@
 title: "ELSS, PPF, and NPS Compared: Features, Lock-in, Risk, and Tax Treatment"
 description: "Compare ELSS, PPF and NPS by structure, access, risk and tax treatment in India, with current rules flagged for verification and no product rankings clearly."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [ELSS, PPF, NPS]
 sources:
   - name: "SEBI"

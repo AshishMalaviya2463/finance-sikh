@@ -2,7 +2,7 @@
 title: "PPF Explained: How It Works, Limits, Lock-in, and Drawbacks"
 description: "Understand India’s PPF account structure, deposits, tenure, extensions, withdrawals, interest declarations and the trade-offs of restricted liquidity over time."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [PPF, public provident fund, PPF withdrawal]
 sources:
   - name: "India Post"

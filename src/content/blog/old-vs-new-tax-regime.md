@@ -2,7 +2,7 @@
 title: "Old vs New Tax Regime: How Salaried People Can Compare Under Current Indian Tax Rules"
 description: "Compare India’s old and new tax regimes by tax year, taxable income, eligible deductions and verified official rules, using an illustrative calculation method."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [old tax regime, new tax regime, tax comparison]
 sources:
   - name: "Income Tax Department"

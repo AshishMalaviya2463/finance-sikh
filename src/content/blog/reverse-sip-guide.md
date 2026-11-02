@@ -2,7 +2,7 @@
 title: "How Much Should You Invest Monthly to Reach a Goal? A Reverse SIP Guide"
 description: "A guide to reverse SIP calculations, future-value assumptions, time horizons and return sensitivity, using illustrative rupee examples rather than forecasts."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [reverse SIP, future value, monthly investment]
 sources:
   - name: "SEBI"

@@ -2,7 +2,7 @@
 title: "How Credit Scores Work in India and How to Improve One"
 description: "Learn how Indian credit reports work, what affects scores, and how to check errors, raise disputes and build sustainable repayment habits without promises."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [credit score, credit report, credit utilisation]
 sources:
   - name: "RBI"

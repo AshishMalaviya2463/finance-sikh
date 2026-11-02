@@ -2,7 +2,7 @@
 title: "What Is a SIP? How Monthly Investing Works in India"
 description: "Learn how SIPs work in India, including mutual-fund units, NAV, instalments, rupee-cost averaging, missed payments and investment risks for beginners."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [SIP, mutual fund units, NAV]
 sources:
   - name: "SEBI"

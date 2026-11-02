@@ -2,7 +2,7 @@
 title: "Term Insurance Explained: Cover, Claim Settlement Data, Riders, and Exclusions"
 description: "Learn how sum assured, underwriting, disclosures, riders, exclusions and claim-settlement data should be understood without treating statistics as guarantees."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [term insurance, sum assured, claim settlement ratio]
 sources:
   - name: "IRDAI"

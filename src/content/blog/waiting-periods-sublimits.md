@@ -2,7 +2,7 @@
 title: "Health Insurance Waiting Periods and Sub-limits, Explained"
 description: "Understand health-policy waiting periods, co-payments, room-rent limits, exclusions and sub-limits through a practical hypothetical claim illustration."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [health insurance waiting period, room rent limit, co-payment]
 sources:
   - name: "IRDAI"

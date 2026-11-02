@@ -2,7 +2,7 @@
 title: "Budgeting on an Indian Salary: Adapting the 50/30/20 Rule"
 description: "Adapt the 50/30/20 budgeting idea to Indian households, including rent, family support, EMIs, annual bills and irregular monthly expenses on a salary."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [salary budget, 50/30/20 rule, monthly expenses]
 sources:
   - name: "RBI"

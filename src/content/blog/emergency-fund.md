@@ -2,7 +2,7 @@
 title: "Emergency Fund: How Much to Keep and Where to Keep It"
 description: "Learn how essential expenses, dependants, job stability, EMIs and access needs shape an emergency fund, plus ways to rebuild it after a withdrawal event."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [emergency fund, essential expenses, liquidity]
 sources:
   - name: "RBI"

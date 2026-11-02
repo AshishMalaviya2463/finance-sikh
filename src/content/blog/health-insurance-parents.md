@@ -2,7 +2,7 @@
 title: "Health Insurance for Parents Above 60: What to Check"
 description: "Review waiting periods, co-payments, room limits, pre-existing conditions, renewals, exclusions, claims and affordability for parents over 60 in India."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [senior health insurance, co-payment, waiting period]
 sources:
   - name: "IRDAI"

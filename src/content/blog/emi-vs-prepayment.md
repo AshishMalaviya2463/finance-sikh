@@ -2,7 +2,7 @@
 title: "EMI vs Prepayment: How Home-Loan Interest Works"
 description: "Understand home-loan principal, interest, amortisation, fixed and floating rates, illustrative repayment schedules, and prepayment trade-offs and lender terms."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [home loan EMI, loan prepayment, amortisation]
 sources:
   - name: "RBI"

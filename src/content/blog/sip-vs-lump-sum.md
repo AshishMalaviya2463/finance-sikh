@@ -2,7 +2,7 @@
 title: "SIP vs Lump Sum: What Beginners Should Understand"
 description: "Understand SIP and lump-sum mutual-fund investing in India through an illustrative comparison of timing risk, cash flow, discipline and market uncertainty."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [SIP, lump sum, timing risk]
 sources:
   - name: "SEBI"

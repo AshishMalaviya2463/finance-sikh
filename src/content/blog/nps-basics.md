@@ -2,7 +2,7 @@
 title: "NPS Basics for Salaried Beginners"
 description: "An introduction to India’s National Pension System, including Tier I and Tier II, contributions, investment choices, tax treatment and exit rules to verify."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [NPS, Tier I, pension planning]
 sources:
   - name: "PFRDA"

@@ -2,7 +2,7 @@
 title: "Term Insurance vs Savings-Type Life Insurance Plans"
 description: "Compare term protection and savings-oriented life insurance, including premiums, benefits, liquidity, lock-ins, exclusions and policy questions for consumers."
 pubDate: 2026-11-02
-authorName: "[OWNER: real author name]"
+authorName: "Ashish Malaviya"
 relatedKeywords: [term insurance, life insurance, policy benefits]
 sources:
   - name: "IRDAI"
