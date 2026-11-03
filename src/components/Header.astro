@@ -8,12 +8,12 @@
     <!-- Desktop Navigation -->
     <nav aria-label="Main navigation" class="hidden md:block">
       <ul class="flex flex-wrap items-center gap-4 text-sm font-semibold">
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog/">Blog</a></li>
+        <li><a class="text-[var(--color-ink)] hover:text-[#066b75]" href="/">Home</a></li>
+        <li><a class="text-[var(--color-ink)] hover:text-[#066b75]" href="/blog/">Blog</a></li>
         <li class="group relative">
-          <button class="inline-flex items-center gap-1" aria-haspopup="true">
-            Calculators
-            <svg class="size-3.5" viewBox="0 0 12 12" aria-hidden="true"><path fill="currentColor" d="M2.2 4.2 6 8l3.8-3.8-.9-.9L6 6.2 3.1 3.3z" /></svg>
+          <button class="inline-flex items-center gap-1 text-[var(--color-ink)] hover:text-[#066b75]" aria-haspopup="true">
+            <span>Calculators</span>
+            <svg class="size-3" viewBox="0 0 12 12" aria-hidden="true"><path fill="currentColor" d="M2.2 4.2 6 8l3.8-3.8-.9-.9L6 6.2 3.1 3.3z" /></svg>
           </button>
           <div class="absolute left-0 top-full z-40 hidden min-w-52 pt-2 group-hover:block group-focus-within:block">
             <ul class="rounded-xl border border-[var(--color-line)] bg-white py-1 shadow-lg" aria-label="Calculator pages">
@@ -22,8 +22,8 @@
             </ul>
           </div>
         </li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/contact/">Contact</a></li>
+        <li><a class="text-[var(--color-ink)] hover:text-[#066b75]" href="/about/">About</a></li>
+        <li><a class="text-[var(--color-ink)] hover:text-[#066b75]" href="/contact/">Contact</a></li>
       </ul>
     </nav>
 
@@ -42,25 +42,25 @@
 
   <!-- Mobile Navigation -->
   <nav id="mobile-menu" class="md:hidden hidden border-t border-[var(--color-line)] bg-white">
-    <ul class="wrap flex flex-col py-2">
-      <li><a class="block py-2 px-1" href="/">Home</a></li>
-      <li><a class="block py-2 px-1" href="/blog/">Blog</a></li>
-      <li>
-        <button 
-          id="mobile-calculators-button"
-          class="flex w-full items-center justify-between py-2 px-1"
-          aria-expanded="false"
-        >
-          <span>Calculators</span>
-          <svg class="size-3.5" viewBox="0 0 12 12" aria-hidden="true"><path fill="currentColor" d="M2.2 4.2 6 8l3.8-3.8-.9-.9L6 6.2 3.1 3.3z" /></svg>
-        </button>
-        <ul id="mobile-calculators-menu" class="hidden ml-4">
-          <li><a class="block py-2 px-1" href="/calculators/sip-calculator/">SIP calculator</a></li>
-          <li><a class="block py-2 px-1" href="/calculators/swp-calculator/">SWP calculator</a></li>
-        </ul>
+      <ul class="wrap flex flex-col py-2">
+        <li><a class="block py-2 px-2 text-[var(--color-ink)] hover:text-[#066b75]" href="/">Home</a></li>
+        <li><a class="block py-2 px-2 text-[var(--color-ink)] hover:text-[#066b75]" href="/blog/">Blog</a></li>
+        <li>
+          <button 
+            id="mobile-calculators-button"
+            class="flex w-full items-center justify-between py-2 px-2 text-[var(--color-ink)] hover:text-[#066b75]"
+            aria-expanded="false"
+          >
+            <span>Calculators</span>
+            <svg class="size-3" viewBox="0 0 12 12" aria-hidden="true"><path fill="currentColor" d="M2.2 4.2 6 8l3.8-3.8-.9-.9L6 6.2 3.1 3.3z" /></svg>
+          </button>
+          <ul id="mobile-calculators-menu" class="hidden ml-4">
+            <li><a class="block py-2 px-2 text-[var(--color-ink)] hover:text-[#066b75]" href="/calculators/sip-calculator/">SIP calculator</a></li>
+            <li><a class="block py-2 px-2 text-[var(--color-ink)] hover:text-[#066b75]" href="/calculators/swp-calculator/">SWP calculator</a></li>
+          </ul>
       </li>
-      <li><a class="block py-2 px-1" href="/about/">About</a></li>
-      <li><a class="block py-2 px-1" href="/contact/">Contact</a></li>
+        <li><a class="block py-2 px-2 text-[var(--color-ink)] hover:text-[#066b75]" href="/about/">About</a></li>
+        <li><a class="block py-2 px-2 text-[var(--color-ink)] hover:text-[#066b75]" href="/contact/">Contact</a></li>
     </ul>
   </nav>
 </header>
