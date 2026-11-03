@@ -1,4 +1,167 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro'; import SipCalculator from '../../components/calculators/SipCalculator.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SipCalculator from '../../components/calculators/SipCalculator.astro';
 ---
-<BaseLayout title="SIP calculator" description="Estimate SIP value with transparent monthly assumptions."><section class="wrap py-12"><h1 class="mb-6 text-4xl font-bold">SIP calculator</h1><SipCalculator /><article class="prose max-w-3xl"><h2>How this estimate works</h2><p>A Systematic Investment Plan invests a chosen amount regularly into a mutual fund. This tool assumes each contribution happens at the end of a month, with a nominal annual rate divided by 12 and compounded monthly. For example, ₹5,000 monthly for 10 years at an assumed 10% produces an illustration—not a promise.</p><h2>What it does not model</h2><p>Actual NAV movement, taxes, fund expenses, missed instalments and changing returns are not included. Compare assumptions carefully and read <a href="/blog/what-is-a-sip/">our SIP explainer</a>.</p></article></section></BaseLayout>
+
+<BaseLayout title="SIP calculator" description="Estimate SIP value with transparent monthly assumptions.">
+  <section class="wrap py-6 md:py-12">
+    <h1 class="mb-4 md:mb-6 text-3xl md:text-4xl font-bold">SIP calculator</h1>
+    <SipCalculator />
+    <article class="prose max-w-3xl mt-6 md:mt-8">
+      <p>A Systematic Investment Plan allows you to invest a set amount in a mutual fund on a regular basis. Usually this will be on a monthly basis. This SIP calculator will give you an estimate of what your investment may earn. Simply input how much you are investing per month, your expected return and how long you are investing for. This can help you plan your investments for specific goals like retirement, education and buying a property.</p>
+
+      <p>This is an estimate. The returns on mutual funds are linked to the market.</p>
+
+      <h2>What is a Systematic Investment Plan (SIP)?</h2>
+      <p>A systematic investment plan allows investors to invest a set amount at regular intervals into a mutual fund. Usually this is a monthly investment, though some schemes offer different intervals.</p>
+      <p>An example may be investing ₹5,000 per month into a mutual fund. This means you will purchase units into the fund at whatever the current Net Asset Value is. As the NAV changes so will the amount of units you're purchasing.</p>
+      <p>A SIP is a way of investing and not a type of mutual fund. This does not mean the investment is without risk. The value of your investment will depend on how the fund performs.</p>
+
+      <h2>How does a SIP calculator work?</h2>
+      <p>A SIP calculator will calculate how much your regular investment will earn. This will depend on three main factors.</p>
+      <ul>
+        <li>How much you're investing per month</li>
+        <li>What the expected return is per year</li>
+        <li>How long you're investing for</li>
+      </ul>
+      <p>The calculator will then give you an estimate of:</p>
+      <ul>
+        <li>How much you'll have invested</li>
+        <li>How much you may earn</li>
+        <li>How much your investment is worth</li>
+      </ul>
+      <p>For example if you invest ₹5,000 per month for 10 years this will mean you've invested a total of ₹6,00,000. With an assumed return of 10% you'll earn approximately ₹10.24 lakhs. This is based on dividing the return by 12 and compounding monthly. This will give you an estimated gain of ₹4.24 lakhs. This is an example.</p>
+
+      <h2>How to use our SIP calculator</h2>
+      <p>To get an estimate of how much your SIP investment will be worth:</p>
+      <ol>
+        <li>Enter how much you're investing per month</li>
+        <li>Enter what you expect your return to be per year. An example may be 8%, 10% or 12%. This is just an example and should not be taken as guaranteed. The actual return you earn will depend on the fund, market and how long you're investing for.</li>
+        <li>How long you're investing for</li>
+        <li>Select how long you expect to invest. You can compare different investment periods, for example 5, 10, 15 and 20 years. The longer you invest the more time your investments have to potentially earn, however this will not guarantee a positive result.</li>
+        <li>View your estimated results</li>
+      </ol>
+      <p>The calculator will show you how much you've invested, how much you may earn and how much your investment is worth. You can change one factor at a time to see how this affects your result.</p>
+
+      <h2>How are SIP returns calculated?</h2>
+      <p>We use the future value of an ordinary annuity formula:</p>
+      <p><strong>FV = P × [((1 + r)^n − 1)/r]</strong></p>
+      <ul>
+        <li>FV = Estimated Future Value</li>
+        <li>P = How much you're investing per month</li>
+        <li>r = Rate of return per month</li>
+        <li>n = Total number of months you're investing</li>
+      </ul>
+      <p>We assume that you're investing the same amount each month at the end of the month. We divide the nominal rate by 12 and compound the return.</p>
+      <p>For example with an assumed return of 10% we would use a rate of approximately 0.8333%. If you're investing ₹5,000 per month for 10 years you will have invested 120 months. This means you'll have invested a total of ₹6,00,000. With these assumptions your investment will be worth approximately ₹10.24 lakhs.</p>
+      <p>This is a basic calculation and does not take into consideration the actual NAV of the mutual fund. We assume a constant rate.</p>
+
+      <h2>Example of SIP Investment</h2>
+      <p>Below is an example of what the investment could be worth. This assumes an investment of ₹5,000 per month with an assumed return of 10%. This has been divided by 12 and compounded monthly. Investment is made at the end of each month.</p>
+      
+      <div class="overflow-x-auto my-6">
+        <table class="w-full border-collapse rounded-lg overflow-hidden">
+          <thead>
+            <tr class="bg-[var(--color-mist)]">
+              <th class="border border-[var(--color-line)] px-4 py-3 text-left text-sm font-semibold">Length of Investment</th>
+              <th class="border border-[var(--color-line)] px-4 py-3 text-right text-sm font-semibold">Total Amount Invested</th>
+              <th class="border border-[var(--color-line)] px-4 py-3 text-right text-sm font-semibold">Estimated Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white">
+              <td class="border border-[var(--color-line)] px-4 py-2.5">5 years</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹3,00,000</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹3.87 Lakhs</td>
+            </tr>
+            <tr class="bg-[var(--color-mist)]/50">
+              <td class="border border-[var(--color-line)] px-4 py-2.5">10 years</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹6,00,000</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹10.24 Lakhs</td>
+            </tr>
+            <tr class="bg-white">
+              <td class="border border-[var(--color-line)] px-4 py-2.5">15 years</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹9,00,000</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹20.72 Lakhs</td>
+            </tr>
+            <tr class="bg-[var(--color-mist)]/50">
+              <td class="border border-[var(--color-line)] px-4 py-2.5">20 years</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹12,00,000</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹37.97 Lakhs</td>
+            </tr>
+            <tr class="bg-white">
+              <td class="border border-[var(--color-line)] px-4 py-2.5">25 years</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹15,00,000</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹66.34 Lakhs</td>
+            </tr>
+            <tr class="bg-[var(--color-mist)]/50">
+              <td class="border border-[var(--color-line)] px-4 py-2.5">30 years</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹18,00,000</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5 text-right">₹1.13 Crore</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <p>These figures have been rounded. They are an example.</p>
+      <p>This example shows how the length of your investment can affect your result. As your investment grows it may earn returns. This is called compounding. Investing earlier can give you more time to invest but there is still a risk involved with the market.</p>
+
+      <h2>Benefits of investing through a SIP</h2>
+      <p>A SIP encourages you to be disciplined with your money. You can set up regular payments which helps to get into the habit. Depending on the scheme you may be able to start investing with a small amount.</p>
+      <p>A SIP can help with rupee cost averaging. This means you're getting more units for your investment when the NAV is low and less when it's high. This means you're spreading your investment. However this does not guarantee you will make a profit and you may lose out. A SIP can be part of a long term plan as long as you select a fund that suits your goals and risk tolerance.</p>
+
+      <h2>SIP or Lump Sum?</h2>
+      <p>A SIP means you're investing smaller amounts regularly whilst a lump sum means you're investing a larger amount. A SIP may be better if you're investing from a regular income whilst a lump sum may be better if you have surplus cash to invest. Both options are dependent on your goals, financial situation, investment time frame and risk. Both options will be affected by the market.</p>
+
+      <h2>How much should I invest?</h2>
+      <p>There is no set amount to invest through a SIP. Consider your income, essential expenses, current commitments, emergency fund, debt and financial goals. Look at your monthly budget and decide how much you want to invest. Do not invest more simply because the calculator shows it could earn more.</p>
+
+      <h2>What isn't considered?</h2>
+      <p>This SIP calculator provides a basic estimate and does not take into consideration the following:</p>
+      <ul>
+        <li>Actual NAV movement – We assume a constant rate.</li>
+        <li>Market volatility – Returns may go up or down.</li>
+        <li>Tax – Tax depends on the fund category, how long you've held it for, tax rules and your circumstances. This won't be taken out.</li>
+        <li>Fund costs – This does not take into consideration the expense ratio.</li>
+        <li>Missed payments – We assume you're making payments each month.</li>
+        <li>Amount invested – We assume you're investing the same amount each month.</li>
+        <li>Inflation – This does not take into consideration inflation.</li>
+        <li>Exit Loads – This does not take into consideration any exit loads.</li>
+      </ul>
+      <p>This should be considered when looking at your result. This is just an estimate.</p>
+
+      <h2>Common mistakes when investing through a SIP</h2>
+      <ul>
+        <li>Guaranteed returns – A SIP does not guarantee any returns. Mutual funds are exposed to market risk.</li>
+        <li>Reacting to every market drop – Consider your goals and risk tolerance before changing.</li>
+        <li>Only choosing based on recent performance – Past performance does not guarantee future performance. Consider the fund's aim, risk and costs.</li>
+        <li>Not considering an emergency fund or inflation – Unexpected costs can cause issues. Inflation will reduce future value.</li>
+        <li>Not having a clear goal – Decide what you're investing for and when you may need the money.</li>
+      </ul>
+
+      <h2>FAQs</h2>
+      <h3>What is a SIP calculator?</h3>
+      <p>A SIP calculator will calculate how much your regular investments into a mutual fund will be worth. This is based on how much you're investing, expected return and how long you're investing.</p>
+
+      <h3>Are the results guaranteed?</h3>
+      <p>No. This is a mathematical estimate. The actual returns on mutual funds will depend on how the market performs and may be higher or lower.</p>
+
+      <h3>Can I invest ₹500 per month?</h3>
+      <p>Some mutual funds will allow you to invest through a SIP. This may start from as little as ₹500. This will depend on the mutual fund.</p>
+
+      <h3>How much could ₹5,000 grow to in 10 years?</h3>
+      <p>With an assumed return of 10% divided by 12 and compounded monthly. This means ₹5,000 per month for 10 years could be worth approximately ₹10.24 lakhs. This is based on an investment of ₹6 lakhs. This is just an example.</p>
+
+      <h3>Can I pause/cancel my SIP?</h3>
+      <p>This will depend on the mutual fund and platform. You may not automatically get a refund for units you've purchased. Please check the terms.</p>
+
+      <h3>Does the calculator take tax and inflation into consideration?</h3>
+      <p>No. There will be no tax taken out. The future value will not be adjusted for inflation. Your actual returns may be different.</p>
+
+      <h2>Plan your investments</h2>
+      <p>Use our SIP Calculator to see how much your investment could be worth. You can compare different amounts, expected returns and investment lengths. Seeing how different scenarios could affect your result can help.</p>
+      <p>A calculator is a helpful tool to plan your investments. Before investing please consider the scheme, your goals and risk tolerance. Read the relevant documents.</p>
+      <p>Mutual funds are exposed to market risk. Please read all documents carefully.</p>
+    </article>
+  </section>
+</BaseLayout>

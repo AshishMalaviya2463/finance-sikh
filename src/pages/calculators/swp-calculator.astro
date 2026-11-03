@@ -1,4 +1,171 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro'; import SwpCalculator from '../../components/calculators/SwpCalculator.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SwpCalculator from '../../components/calculators/SwpCalculator.astro';
 ---
-<BaseLayout title="SWP calculator" description="Model illustrative monthly withdrawals using transparent assumptions."><section class="wrap py-12"><h1 class="mb-6 text-4xl font-bold">SWP calculator</h1><SwpCalculator /><article class="prose max-w-3xl"><h2>How this estimate works</h2><p>Each month, the remaining corpus first receives the assumed monthly return; then the withdrawal is deducted. The simulation stops if the requested withdrawal cannot be paid in full.</p><h2>What it does not model</h2><p>Taxes, exit load, expense ratios, inflation and variable market returns can materially change outcomes. Withdrawals may deplete capital.</p></article></section></BaseLayout>
+
+<BaseLayout title="SWP calculator" description="Model illustrative monthly withdrawals using transparent assumptions.">
+  <section class="wrap py-6 md:py-12">
+    <h1 class="mb-4 md:mb-6 text-3xl md:text-4xl font-bold">SWP calculator</h1>
+    <SwpCalculator />
+    <article class="prose max-w-3xl mt-6 md:mt-8">
+      <p>A Systematic Withdrawal Plan (SWP) allows investors to withdraw a fixed amount of money from their mutual fund investment. This means you can receive an income from your investment (at regular intervals) without withdrawing the whole of your investment, for example monthly, quarterly and yearly.</p>
+
+      <p>The SWP Calculator tool can help you estimate what your investment will look like over time, with regular withdrawals. This will give you an idea of how much you will have withdrawn and how much you will have left in your investment after a set period of time. You can enter how much you initially invested, how much you wish to withdraw, what rate of return you expect and how long you will be investing.</p>
+
+      <p>Using an SWP Calculator can help you get an overall idea of your withdrawals. This is an estimation tool as you will not be guaranteed a certain rate of return from your mutual fund.</p>
+
+      <h2>What is a Systematic Withdrawal Plan?</h2>
+      <p>A Systematic Withdrawal Plan is a mutual fund option that allows you to withdraw a set amount from your current investment.</p>
+      <p>For example, if you had 20 lakh invested in a mutual fund and wanted to withdraw 15,000 monthly. From your investment the mutual fund will sell you units to give you the amount requested. The rest of your investment will still be invested meaning the value could increase or decrease.</p>
+      <p>Unlike a Systematic Investment Plan (SIP), SWPs allow you to withdraw money from your investment regularly. SIPs are typically used to grow your investment whereas SWPs can be used to gain access to your investment.</p>
+      <p>SWPs are often used by those looking to retire, investors looking for a regular income and those wanting to withdraw their investment over time.</p>
+
+      <h2>What is an SWP Calculator?</h2>
+      <p>An SWP Calculator will show you how your mutual fund investment will be affected by regular withdrawals. You can enter how much you have initially invested, how much you wish to withdraw, the rate of return you expect and for how long.</p>
+      <p>Typically you will enter:</p>
+      <ul>
+        <li>Initial Investment – How much you are investing into the mutual fund.</li>
+        <li>Monthly Withdrawal – How much you wish to withdraw each month.</li>
+        <li>Expected Rate of Return – How much rate of return you expect annually. This is an assumed figure.</li>
+        <li>Withdrawal Period – How long you want to withdraw for in months/years.</li>
+      </ul>
+      <p>You can get an idea of how much you will have withdrawn and how much you will have left. You can play around with the numbers to see how different scenarios would affect your investment.</p>
+
+      <h2>How to use an SWP Calculator?</h2>
+      <p>Using an SWP Calculator is easy. Simply follow the steps below.</p>
+      <ol>
+        <li>Initial Investment – Enter how much you are investing into the mutual fund. For example 20,00,000.</li>
+        <li>Monthly Withdrawal – Enter how much you wish to withdraw monthly. For example 15,000.</li>
+        <li>Expected Rate of Return – Enter how much of a rate of return you are assuming. For example 8%, 10% and 12%. Try to keep this realistic. Remember this is an assumption and can vary.</li>
+        <li>Duration – How long you want to withdraw for. For example 10, 15 and 20 years.</li>
+        <li>Calculate – Click the calculate button to see how much you will have withdrawn.</li>
+      </ol>
+      <p>Play around with the numbers, changing one at a time to see how it affects the balance.</p>
+
+      <h2>How does an SWP Calculator work?</h2>
+      <p>The SWP Calculator will add on the assumed return and subtract the withdrawals. This will happen regularly depending on how often you are withdrawing (monthly).</p>
+      <p>Every month the balance will have the assumed return added on and the withdrawals taken off. This will happen until you reach your chosen period or you cannot cover the withdrawals.</p>
+      <p>This will give you an idea of how the balance will be affected by the withdrawals. Every month the balance will have the assumed return added on and then have the withdrawals taken off. If you cannot cover the withdrawals the calculation will stop.</p>
+
+      <h2>SWP Calculation Formula</h2>
+      <p>To keep it simple the formula would be:</p>
+      <p><strong>New Balance = (Current Balance x (1+Monthly Return)) – Monthly Withdrawal</strong></p>
+      <ul>
+        <li>Current Balance – The balance you have at the start of the month.</li>
+        <li>Monthly Return – This is the assumed rate of return yearly divided by 12.</li>
+        <li>Monthly Withdrawal – The fixed amount you are withdrawing each month.</li>
+        <li>New Balance – This is your estimated balance.</li>
+      </ul>
+      <p>This is a very simple calculation and does not guarantee your mutual fund will earn the same amount each month. The actual performance will vary and the value of units will depend on the Net Asset Value (NAV) of the fund.</p>
+
+      <h2>SWP Calculator Example</h2>
+      <p>An investor has 20,00,000 invested in a mutual fund and wishes to withdraw 15,000 each month. They expect to earn 8% annually and want to see how much they will have after 10 years.</p>
+      <p>The calculator will add on the assumed rate of return each month and take off 15,000. This will happen for your chosen duration and give you an idea of how much you will have left.</p>
+      <p>This is just to give you an idea of how the calculation would work. The actual results will depend on your inputs and performance of the market. The more you withdraw, the quicker your balance will reduce.</p>
+
+      <h2>Benefits of using an SWP Calculator</h2>
+      <p>Using an SWP Calculator can help you plan your withdrawals. Benefits include:</p>
+      <ul>
+        <li>Estimate how much you will have left.</li>
+        <li>Plan your income. See how your income compares with withdrawing monthly.</li>
+        <li>See how different amounts will affect your balance.</li>
+        <li>Try different rates of return.</li>
+        <li>Help plan for retirement.</li>
+        <li>See how much you are withdrawing compared to how long you are investing.</li>
+      </ul>
+      <p>This is a planning tool and doesn't suggest you should invest or withdraw a certain amount.</p>
+
+      <h2>SWP or SIP?</h2>
+      <p>SWP and SIP are two different ways to use mutual funds.</p>
+      <div class="overflow-x-auto my-6">
+        <table class="w-full border-collapse rounded-lg overflow-hidden">
+          <thead>
+            <tr class="bg-[var(--color-mist)]">
+              <th class="border border-[var(--color-line)] px-4 py-3 text-left text-sm font-semibold"></th>
+              <th class="border border-[var(--color-line)] px-4 py-3 text-left text-sm font-semibold">SIP</th>
+              <th class="border border-[var(--color-line)] px-4 py-3 text-left text-sm font-semibold">SWP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white">
+              <td class="border border-[var(--color-line)] px-4 py-2.5 font-medium">Main Purpose</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Invest regularly</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Withdraw regularly</td>
+            </tr>
+            <tr class="bg-[var(--color-mist)]/50">
+              <td class="border border-[var(--color-line)] px-4 py-2.5 font-medium">Cash Flow</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Money going in</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Money coming out</td>
+            </tr>
+            <tr class="bg-white">
+              <td class="border border-[var(--color-line)] px-4 py-2.5 font-medium">Start</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Usually planned regular investment</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Existing investment</td>
+            </tr>
+            <tr class="bg-[var(--color-mist)]/50">
+              <td class="border border-[var(--color-line)] px-4 py-2.5 font-medium">Typical Use</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Grow your investment</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Access your investment</td>
+            </tr>
+            <tr class="bg-white">
+              <td class="border border-[var(--color-line)] px-4 py-2.5 font-medium">Units</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Units purchased</td>
+              <td class="border border-[var(--color-line)] px-4 py-2.5">Units sold</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Investors may use SIPs to save up their money and then consider withdrawing. Depending on your goals, risk tolerance and other income sources, will determine which is the right option for you.</p>
+
+      <h2>How much can I Withdraw?</h2>
+      <p>There is no one answer to this as it will depend on your investment, costs, risk, how long you are withdrawing and actual rate of return. Think about your essential costs, other income, emergency funds and how long you need the money for. Try a few different amounts.</p>
+      <p>Don't just go for a high amount as it may look like you'll have some money left. This can cause the balance to reduce quicker depending on the rate of return especially in the beginning.</p>
+
+      <h2>Considerations Before Starting an SWP</h2>
+      <p>Consider the following before starting regular withdrawals:</p>
+      <ul>
+        <li>Market Volatility – The value of mutual funds can vary. During a period of negativity the balance may reduce.</li>
+        <li>Amount Withdrawn – The higher the amount you withdraw the quicker your investment will decrease.</li>
+        <li>Investment Horizon – Consider how long you may need the withdrawals for.</li>
+        <li>Fund – Understand what the fund is investing in, what assets it has, risk and if it suits your needs.</li>
+        <li>Liquidity – Have appropriate funds for emergencies.</li>
+        <li>Tax – Tax will vary depending on the type of fund you are investing in, how long you have held it and what regulations apply. Please check what the current regulations are or speak to a qualified tax professional.</li>
+      </ul>
+      <p>An SWP will not remove the risk of investing and doesn't guarantee a fixed income. You should regularly review your withdrawals.</p>
+
+      <h2>Common Mistakes to Avoid</h2>
+      <p>Avoid the following common mistakes:</p>
+      <ul>
+        <li>Assuming guaranteed returns. The rate of return is just an assumption.</li>
+        <li>Withdrawing large amounts. This can cause the balance to reduce quicker.</li>
+        <li>Not considering inflation. The value may not be as much.</li>
+        <li>Using high rates of return. This can make your plan look more sustainable.</li>
+        <li>Ignoring costs. There will be costs of taxes, exit loads and expenses.</li>
+        <li>Not reviewing. Consider your withdrawals if your costs or market changes.</li>
+      </ul>
+
+      <h2>FAQs</h2>
+      <h3>What is an SWP Calculator?</h3>
+      <p>An SWP Calculator is a tool that will give you an idea of how much you will have left in your mutual fund after regular withdrawals. You can enter how much you initially invested, how much you want to withdraw, what return you expect and how long you will be withdrawing.</p>
+
+      <h3>Are returns guaranteed?</h3>
+      <p>No. The returns from mutual funds are linked to the market. The rate of return is an assumption and can vary.</p>
+
+      <h3>Can I withdraw a fixed amount each month?</h3>
+      <p>You can set up a Systematic Withdrawal Plan on a mutual fund. This will allow you to withdraw a set amount at set intervals. However, this will depend on how much you have invested and what the fund allows. If there isn't enough in your corpus you may not be able to withdraw the full amount.</p>
+
+      <h3>Will my units reduce?</h3>
+      <p>Yes. Every time you make a withdrawal you will be selling units from your mutual fund. The amount of units sold will depend on how much you are withdrawing and the applicable NAV.</p>
+
+      <h3>Are there any taxes?</h3>
+      <p>As you are withdrawing you will be selling units from your mutual fund. There may be tax on the capital gains part. This will depend on the type of fund, how long you have held and applicable regulations. Tax can change so please check what the current regulations are or speak to a tax professional.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>An SWP can be a great way to access your existing mutual fund investment. Using an SWP Calculator can help you understand how different amounts, rates of return and periods will affect your balance.</p>
+      <p>Use realistic assumptions, play around with different scenarios and regularly review your plan. Consider your costs, other income, risk and tax.</p>
+
+      <h2>Disclaimer</h2>
+      <p>This calculator is for educational purposes and will only give you an estimate. It is not a guarantee of returns and is not financial, tax or investment advice. Actual results may vary due to market fluctuations, tax, exit loads, expense ratios and other factors. You may want to speak to a qualified financial adviser before making any investment decisions.</p>
+    </article>
+  </section>
+</BaseLayout>

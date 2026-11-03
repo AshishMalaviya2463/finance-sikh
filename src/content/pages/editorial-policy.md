@@ -1,116 +1,88 @@
 ---
 title: Editorial Policy
-description: How Finance Sikh researches, checks, updates and corrects its content.
+description: How Finance Sikh researches, reviews, updates, and corrects its content.
 ---
 
-## Audience
+Last Updated: 2 November 2026
 
-Finance Sikh is a personal finance site which focuses primarily on
-India.
-We focus on simplifying complex financial subjects and concepts so that
-our readers can learn about topics they want to know more about.
-We do not offer individuals any advice relating to investments, taxes,
+## Who is this for?
 
-insurance, legal, financial and/or credit.
+Finance Sikh is a personal finance website focused on providing simplified financial knowledge about India.
 
-## Topics Covered
+We do not offer any personal advice related to investments, tax, insurance, legal, financial or credit. The information we provide is for educational purposes only.
 
-We cover the following topics:
+## What we focus on
 
-- Budgeting / Managing your money
-- Saving / Emergency fund
-- Investments, SIPs, Mutual Funds and other concepts relating to
-  investing such as compounding and risk.
-- Insurance, Term Insurance and Health insurance.
-- Taxes, Indian tax system.
-- Loans, EMIs, Repayment and Credit Scoring.
+We focus on providing information on:
 
-- Calculators.
-  We focus mainly around topics that people often ask about, simplify
-  complex terms and show you how to calculate things with examples.
+- Personal Budgeting
+- Savings & Emergency Funds
+- Investments, SIPs, Mutual Funds, Compounding & Risk
+- Insurance, Term Insurance & Health Insurance
+- Taxation System in India
+- Loans, EMIs, Repayments & Credit Scores
+- Calculators
 
-## Researching
+## Research
 
-We always aim to use first hand, official sources. These can be:
+We always aim to use primary and official sources of information. These include:
 
-- SEBI – Securities market information and Investor education.
-- RBI – Banking, Lending, Monetary and other related information.
-- AMFI – Mutual Fund industry information and Investor Education.
-- IRDAI – Insurance regulations and consumer information.
-- PFRDA – Pension system information and National Pension System.
-- Income Tax Department – Tax rules, official guidelines, forms and
-  notifications.
-- India Code – Central legislation.
-- National Savings Institute – Small saving scheme information.
-  Depending on the topic, the source will vary. If something needs to be
-  proven using a specific rule, rate, limit, product requirement or date
+- **SEBI** – Information about the Securities Market and Investor Education
+- **RBI** – Banking, Lending, Monetary Policy, etc.
+- **AMFI** – Mutual Fund Industry & Investor Education
+- **IRDAI** – Insurance & Consumer Regulation
+- **PFRDA** – Pension Scheme & National Pension Scheme
+- **Income Tax Department** – Tax Rules & Guidelines, Forms & Notifications
+- **India Code** – Central Legislation
+- **National Savings Institute** – Small Savings Schemes
 
-then the article should state a helpful source and allow you to find out
-more information.
-While it may be helpful to use articles from third parties, they should
-not be used instead of an authoritative source.
+Where rules, rates, limits, eligibilities or dates are mentioned, we will always reference the official source. Articles from other sites may be referenced to provide extra information.
 
-## Reviewing
+## Writing
 
-Before publishing your content ensure that the content is clear,
-logical, backed up with facts and relevant to an Indian audience.
-Ensure:
+Before any content is published, we follow these guidelines:
 
-- Important statements are backed up with reliable sources.
-- Rates, limits, dates and rules are all up to date as of the date of
-  review.
-- General rules have been explained with exceptions.
-- Examples and calculations all use the same assumptions.
-- Uncertainties and limitations have been explained fairly.
-- There is no suggestion of individual advice.
-  This does not guarantee there are no errors in your article. If you
-  think there may be some incorrect information please let us know.
+- All key statements, facts, rates, limits, dates and rules have been referenced from official sources in India such as RBI, SEBI, IRDAI, PFRDA, AMFI, Income Tax Department, India Code or National Savings Institute.
+- Information has been referenced from up-to-date official sources.
+- All exceptions, conditions and cautions have been explained where relevant.
+- Examples and calculators have clear assumptions.
+- Any uncertainties, limitations and any major omissions have been fairly stated.
+- Information provided is for general information purposes only. It is not offering any personal advice regarding investments, tax, insurance, legal or financial matters.
 
-## Examples / Calculators
+## Examples & Calculators
 
-Examples and calculators are only to help you understand the concept.
+Our calculators and examples are there to demonstrate how things work.
 
-Any relevant information should be included in the article showing
-assumptions, inputs, time frames, rates and method of calculations. If
-there are any missing elements (fees, taxes, inflation, variable rates
-etc) in the calculator then this should be highlighted if it has a major
-impact on how it is interpreted.
-Do not state that you will receive guaranteed returns, tax savings,
-insurance, loan eligibility or any other financial gain.
+- Any assumptions, inputs, timeframes, rates or calculations have been stated.
+- If there are any major omissions (fees, taxes, inflation or variable rates), these will be clearly stated.
+- The results are an estimate only.
 
-## Updating / Correcting
+## Changes
 
-Financial information can change. This can be due to laws, regulations,
-tax rules, interest rates, government schemes and product requirements.
-When we become aware of any major changes we will aim to review the
-content. If there have been any major changes then this should be
-highlighted within the article and the date updated where appropriate.
+Financial laws, regulations, taxation, interest rates, government schemes and product information are regularly changing.
 
-If you think there may be an error please email us at
-financesikh.learn@gmail.com. Please include the link to the article, the exact statement you
-are referring to and if possible a reliable source or reason for the
-correction.
-We will try to review any reports. This does not guarantee any
-outcomes.
+We will endeavour to check and update any content of which we become aware has major changes. This will be done as soon as reasonably possible.
 
-## Independence / Sponsorships
+Major changes will be highlighted and the date the article was reviewed/updated will be changed accordingly.
 
-Finance Sikh is not intended to be misleading.
-If there are any sponsored posts, affiliate links or other
-relationships then this should be clearly stated. Do not suggest that
-because there is a relationship with a product it is suitable, safe or
-beneficial to everyone.
-We do not offer any individual advice. Sponsored content is not
-independent advice on rankings. If we write any articles comparing or
-relating to products then we should state what the article covers, any
-criteria used, limitations and any relationships.
+If you feel any of our articles have an error, please email us at financesikh.learn@gmail.com stating the URL of the article, the exact details you are concerned with, and your reliable source/reason for the correction. We will look into all reports; however, we cannot guarantee any specific outcome.
+
+## Independence & Sponsorship
+
+Finance Sikh is independently owned.
+
+- Any posts that contain sponsorship, affiliate links or other commercial relationships will be clearly stated.
+- We do not receive any payment for positive reviews, rankings or recommendations.
+- Just because there is a relationship in place does not mean the product is suitable, safe or beneficial for everyone.
+- If we compare products, we will clearly state how we are comparing them, what the limitations are and any relationships.
+- Everything is for educational purposes and is not personal advice.
 
 ## Ownership
 
-Finance Sikh is run by Ashish Malaviya.
-Finance Sikh is independently published by Ashish Malaviya to make
-everyday Indian personal-finance concepts easier to understand. The
-site is educational and does not claim regulated financial, tax,
-insurance, legal, or investment qualifications.
-For any queries relating to sources, corrections or editorial please
-email financesikh.learn@gmail.com.
+Finance Sikh is owned and published by Ashish Malaviya. It is an independent educational resource aimed to help you understand everyday concepts related to personal finance in India.
+
+We do not claim to have any regulated qualifications relating to financial, tax, insurance, legal or investment advice.
+
+## Contact
+
+Please contact us at financesikh.learn@gmail.com if you have any queries about sources, corrections or any editorial issues.

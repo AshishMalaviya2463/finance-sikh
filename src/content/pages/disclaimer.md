@@ -10,6 +10,7 @@ The information contained in our articles, examples and calculators are
 meant to aid you in understanding the concept and should not be
 interpreted as personal finance advice or recommendations relating to
 investment, tax, insurance, legal, finance, credit etc.
+
 ## No Recommendations
 
 Nothing contained within Finance Sikh constitutes a recommendation to
@@ -19,6 +20,7 @@ mutual fund, lender, security or investment.
 Throughout our educational content we do not provide any stock tips or
 personal recommendations. There is no adviser client relationship
 created by reading any of our articles or using our calculators.
+
 ## Investment Risk
 
 All investments carry some risk, your investment may lose value and
@@ -27,6 +29,7 @@ guarantee of future performance.
 
 Any information related to investments should be seen as generic
 education.
+
 ## Calculators & Examples
 
 All calculator results and examples are hypothetical and based on
@@ -38,6 +41,7 @@ Results may vary due to fees, taxes, rates, product specifics, rounded
 figures, changes in rules and personal circumstances. Please check the
 
 assumptions and ensure key calculations have been verified.
+
 ## Changing Information
 
 Taxation, interest rates, financial rules, insurance wording,
@@ -46,6 +50,7 @@ change. This means that information which was correct at the time of
 writing may no longer be up to date.
 Whilst we aim to keep our content updated where necessary, we cannot
 guarantee that all pages will always be up to date.
+
 ## Before Making a Decision
 
 Ensure that current information is obtained from the relevant
@@ -58,6 +63,7 @@ professional.
 This may include SEBI, RBI, AMFI, IRDAI, PFRDA, Income Tax Department,
 India Code & National Savings Institute depending on what the content
 relates to.
+
 ## Affiliate/Sponsored Content
 
 Should we ever add affiliate links, sponsorships or any other
@@ -67,6 +73,7 @@ content.
 This will not mean that the product is suitable for everyone. Please
 ensure that you research products to see if they are suitable for you
 and check the terms.
+
 ## Contact
 
 If you feel there is an error or need further clarification please contact us:

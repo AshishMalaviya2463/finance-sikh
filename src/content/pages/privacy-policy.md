@@ -1,155 +1,60 @@
 ---
 title: Privacy Policy
-description: How Finance Sikh handles contact-form information and related services.
+description: How Finance Sikh handles personal information.
 ---
 
 Last reviewed: 2 November 2026
 
-This privacy policy describes how Finance Sikh collects and uses information when you visit our website and/or provide us information through our contact form.
-Finance Sikh is an educational resource for personal finance and is aimed towards readers within India. Our website and data collection practices may change as the site develops. When this happens it is important to update our privacy policy.
+Finance Sikh is an educational website. Our Privacy Policy outlines how we obtain, use and safeguard your information.
 
-## 1. Information We Collect
+## Information We Collect
 
-### Information You Provide
+We only collect the following information if you use our contact form:
 
-We may ask you to provide the following information as part of the
+- Name
+- Email address
+- Subject (optional)
+- Message
+- Submission date and time
 
-contact form:
+Please do not include any sensitive information such as your password, payment card details, bank details, or government ID numbers.
 
-- Your Name - This allows us to know who has sent us the message.
-- Your Email Address - This gives us a way to respond to your
-  enquiry.
-- Your Subject (Optional) - A brief description of your enquiry.
-- Your Message - Your actual question/feedback/correction etc.
-- The time you sent the message.
-  Do not provide any unnecessary sensitive information such as your
-  passwords, payment details, government ID, account details etc.
+## Use of Your Information
 
-### Technical Information
+We will only use the information collected to:
 
-When visiting a website technical information may be processed by the
-service that hosts the website. This information may include details
-about requests, device, browsers etc depending on the services being
-used.
-We make no claims about what technical data we collect or store. If
-relevant hosting and technical logs are present they will be handled in
-accordance with the relevant service providers.
+- Answer your queries
+- Consider corrections or comments
+- Keep necessary records
 
-## 2. How We Use Information From Contact Form
+We will never sell, rent, or use your personal information for marketing purposes.
 
-Information provided via the contact form may be used for:
+## Cookies & Similar Technologies
 
-- To help us understand your enquiry.
-- To help us understand any errors or corrections you have
-  mentioned.
-- To help us take on board any feedback you have given us about
-  articles, calculators or website.
-- To keep some record of your submission where reasonably
-  necessary.
-- To help with any administrative and operational issues with the
-  website.
-  When you complete the contact form your submissions will be stored in
-  Firebase Cloud Firestore. Contact messages are not made public and will
-  not be emailed automatically.
-  We make no guarantees that we will reply to any messages.
+We do not use any analytics or marketing cookies. However, our service providers may use necessary cookies, local storage, or similar technologies strictly to operate and secure the website.
 
-## 3. Hosting And Data
+## Disclosure of Information
 
-Finance Sikh is a static site created using Astro and is hosted using
-Firebase Hosting. Contact form submissions are stored in Firebase
-Cloud Firestore.
-Firebase is provided by Google. Google and the relevant Firebase
-infrastructure may process information as required to provide,
-administer and protect their services. Please refer to the relevant
-service terms, privacy policies and setup.
-You can find out more about how Google handle their data in general by
-visiting their Privacy Policy.
-Not all aspects of the infrastructure and technical processes used by
-our service providers can be controlled by us.
+We will not publicly share any information provided through our contact form. However, we may share your information with:
 
-## 4. Analytics
+- Our service providers
+- When required by law
+- To protect our website, users, or rights
 
-Google Analytics is not installed by default.
-If we were to introduce analytics or other tools in the future this
-policy should be updated to describe what tools we are using, the
-information they process, what they are used for and what choices are
-available to visitors.
+## Data Retention
 
-### Advertising
+We will only keep your contact messages for as long as necessary to answer your query or for the reason it was submitted. We may keep a small amount of information if required by law or for legitimate business purposes.
 
-Google AdSense code is not installed by default.
-If we were to introduce advertising this policy must be updated to
-describe the technologies used, cookies/identifiers, how they will be
-used and what privacy choices are available.
-Google have information available about their advertising technologies
-and privacy:
-Google advertising cookies: https://policies.google.com/technologies/ads
-Google Ads Settings: https://adssettings.google.com/
-This does not mean we currently use Google advertising.
+## Your Rights
 
-## 5. Cookies & Identifiers
+If you wish to request access to, correction of, or deletion of information you have sent using our contact form, please email us at financesikh.learn@gmail.com. Please include enough information to identify your message. We will respond in accordance with applicable laws.
 
-While we do not install Google Analytics or AdSense by default, we
-cannot guarantee that no cookies, local storage or other identifiers
-are used by all services involved.
-The website owner should check what setup has been done in production.
-Scripts, embedded services and other tools may be in place.
-If we introduce cookies or identifiers this policy should be updated.
+## Updates to This Policy
 
-## 6. Sharing Information
+We reserve the right to update this Privacy Policy from time to time. Any changes will be published on this page with an updated review date.
 
-Contact form information is not made public. As we use Firebase to host
-our website information will be processed by the relevant service.
-Information may also need to be shared if required by law or to help
-with legitimate administrative, security or legal issues relating to
-the website.
-We cannot guarantee that information will never be accessed, shared or
-processed by our service.
+## Contact
 
-## 7. Data Retention & Deletion
+If you have any queries relating to this Privacy Policy, please email us at financesikh.learn@gmail.com.
 
-Contact messages may be kept for as long as is reasonably necessary
-depending on what they are for, keeping records, reviewing corrections
-and/or any other requirements.
-There is no set time frame here as this would need to be decided and
-implemented based on the actual requirements of the website.
-If you wish to enquire about any personal information you have provided
-or to have it corrected or deleted please contact:
-
-Email: financesikh.learn@gmail.com
-Where possible please let us know what submission you are referring to.
-Requests will be considered based on the law, records available and any
-legitimate requirements to keep records. We cannot guarantee that all
-records can be deleted in all circumstances.
-
-## 8. Your Privacy & Laws
-
-The website owner should ensure they are aware of the privacy laws and
-data protection laws in India that apply to this website, including any
-rules and requirements to start. They should also check if there are
-any requirements that apply to visitors from other countries.
-This policy aims to give a practical overview of what is currently in
-place. We cannot guarantee that all legal requirements have been met
-
-and this should not be used as a replacement for proper legal review.
-
-## 9. Children's Information
-
-This website is a general educational resource for personal finance.
-If you are a parent/guardian and have concerns about any information
-provided by a child please contact the website owner:
-The website owner should ensure they are aware of any age related
-requirements and update their practices and policies.
-
-## 10. Amendments
-
-This privacy policy may be amended if there are changes to the
-implementation, services or requirements. Once updated it should be
-published on this page with an appropriate date for review/amendment.
-
-## 11. Contact
-
-If you have any questions about this privacy policy or information you
-have provided please contact:
-Email: financesikh.learn@gmail.com
-Legal reviewed & approved by: 2 November 2026
+Approved by Ashish Malaviya on 2 November 2026.
