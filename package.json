@@ -14,7 +14,7 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "check:content": "node scripts/check-content.mjs",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && npx wrangler deploy"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.12",
