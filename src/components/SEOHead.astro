@@ -1,8 +1,19 @@
 ---
 import { site } from '../lib/site';
-const { title, description, canonical = Astro.url.pathname, type = 'website', image = '/finance-sikh-mark.svg', publishedTime, modifiedTime, author } = Astro.props;
-const url = new URL(canonical, site.url).toString();
-const imageUrl = new URL(image, site.url).toString();
+
+const { title, description, canonical, type = 'website', image = '/finance-sikh-mark.svg', publishedTime, modifiedTime, author } = Astro.props;
+
+function toCanonicalPath(pathname: string): string {
+  if (!pathname) return '/';
+  const clean = pathname.split('?')[0].split('#')[0] || '/';
+  const withLeading = clean.startsWith('/') ? clean : `/${clean}`;
+  if (withLeading === '/' || withLeading.endsWith('/')) return withLeading;
+  return `${withLeading}/`;
+}
+
+const canonicalPath = toCanonicalPath(canonical ?? Astro.url.pathname);
+const url = new URL(canonicalPath, Astro.site ?? site.url).toString();
+const imageUrl = new URL(image, Astro.site ?? site.url).toString();
 ---
 <title>{title} | {site.name}</title>
 <meta name="description" content={description} />
