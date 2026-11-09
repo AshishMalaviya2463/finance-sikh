@@ -10,3 +10,6 @@
   :focus-visible { outline: 3px solid #e49b36; outline-offset: 3px; } h1,h2,h3 { text-wrap: balance; }
 }
 @layer components { .wrap { @apply mx-auto w-[min(100%-2rem,72rem)]; } .card { @apply rounded-xl border border-[var(--color-line)] bg-white p-6 shadow-sm; } .button { @apply inline-flex items-center rounded-lg bg-teal px-4 py-2 font-semibold text-white no-underline hover:bg-[#066b68]; } .prose p { @apply my-4 leading-7; } .prose h2 { @apply mt-9 text-2xl font-bold; } .prose h3 { @apply mt-6 text-xl font-bold; } }
+.cookie-switch-input:focus-visible + .cookie-slider { outline: 3px solid #e49b36; outline-offset: 2px; border-radius: 28px; }
+#financesikh-footer-cookie-settings { color: #066b75; text-decoration: underline; text-underline-offset: 2px; }
+#financesikh-footer-cookie-settings:hover { color: #034b5a; }

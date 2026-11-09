@@ -1,0 +1,540 @@
+---
+// Cookie consent component for optional Google Analytics (GA4).
+// Storage key: financesikh:consent:v1
+// Value: { analytics: 'accepted' | 'rejected', version: 1, updatedAt: ISO string }
+// A missing choice is treated as "no consent" - analytics stays disabled.
+---
+<div
+  id="financesikh-cookie-banner"
+  class="financesikh-cookie-banner fixed inset-x-0 bottom-0 z-[60] bg-white border-t border-[var(--color-line)] shadow-lg"
+  role="region"
+  aria-labelledby="financesikh-cookie-title"
+  aria-describedby="financesikh-cookie-desc"
+  hidden
+>
+  <div class="wrap px-6 py-6 flex flex-col md:flex-row md:items-center gap-4">
+    <div class="flex-1 text-sm leading-6">
+      <p id="financesikh-cookie-title" class="font-semibold text-[var(--color-ink)]">
+        Analytics cookies are optional
+      </p>
+      <p id="financesikh-cookie-desc" class="mt-1 text-slate-600">
+        Finance Sikh uses Google Analytics to understand how people use our website so we can improve it.{' '}
+        <a href="/privacy-policy/" class="text-[#066b75] underline underline-offset-2 hover:text-[#034b5a]">Read our Privacy Policy</a>.
+        Analytics is optional &mdash; the site works without it.
+      </p>
+    </div>
+    <div class="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-end">
+      <button id="financesikh-cookie-accept" class="button w-full sm:w-auto">Accept analytics</button>
+      <button id="financesikh-cookie-reject" class="inline-flex items-center justify-center rounded-lg border border-[var(--color-line)] bg-white px-4 py-2 font-semibold text-[var(--color-ink)] no-underline hover:bg-[var(--color-mist)]">Reject analytics</button>
+      <button id="financesikh-cookie-settings-btn" class="inline-flex items-center justify-center rounded-lg border border-[var(--color-line)] bg-white px-4 py-2 font-semibold text-[var(--color-ink)] no-underline hover:bg-[var(--color-mist)]" aria-controls="financesikh-cookie-settings">Cookie settings</button>
+    </div>
+  </div>
+</div>
+
+<div
+  id="financesikh-cookie-settings"
+  class="fixed inset-0 z-[70] hidden"
+  aria-modal="true"
+  role="dialog"
+  aria-labelledby="financesikh-settings-title"
+>
+  <div class="fixed inset-0 bg-black/40 backdrop-blur-sm" id="financesikh-cookie-settings-backdrop"></div>
+  <div class="absolute inset-y-0 right-0 w-full max-w-md bg-white shadow-2xl flex flex-col">
+    <div class="wrap px-6 py-6 border-b border-[var(--color-line)] flex items-center justify-between">
+      <h2 id="financesikh-settings-title" class="text-lg font-bold text-[var(--color-ink)]">Cookie settings</h2>
+      <button id="financesikh-cookie-settings-close" class="rounded-lg p-2 hover:bg-[var(--color-mist)]" aria-label="Close settings">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+      </button>
+    </div>
+    <div class="wrap px-6 py-6 flex-1 overflow-y-auto">
+      <p class="text-sm text-[var(--color-ink)] leading-6">
+        Analytics cookies are optional. Finance Sikh uses Google Analytics to understand how people use the website so we can improve it. The site works without analytics.
+      </p>
+      <div class="mt-6">
+        <label class="cookie-switch block" id="financesikh-cookie-analytics-label">
+          <input type="checkbox" role="switch" id="financesikh-cookie-analytics" class="cookie-switch-input" aria-checked="false" aria-label="Enable optional analytics (Google Analytics) cookies" />
+          <span class="cookie-slider"></span>
+          <span class="ml-3 text-sm text-slate-600">Enable optional analytics</span>
+        </label>
+        <p class="mt-2 text-xs text-slate-500 max-w-xs">
+          When enabled, Google Analytics sets cookies such as <code>_ga</code> to measure website usage.
+        </p>
+      </div>
+      <div id="financesikh-cookie-status" class="mt-4 text-xs text-slate-600 hidden" role="status" aria-live="polite"></div>
+      <div class="mt-8 flex gap-3">
+        <button id="financesikh-cookie-settings-save" class="button">Save choices</button>
+        <button id="financesikh-cookie-settings-cancel" class="inline-flex items-center justify-center rounded-lg border border-[var(--color-line)] bg-white px-4 py-2 font-semibold text-[var(--color-ink)] no-underline hover:bg-[var(--color-mist)]">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    'use strict';
+
+    const CONSENT_KEY = 'financesikh:consent:v1';
+    const CONSENT_VERSION = 1;
+    const GA_ID = 'G-RZFYY1898B';
+
+    // GA4 lifecycle tracking
+    let scriptInserted = false;
+    let gaLibraryLoaded = false;
+    let dataLayerInitialised = false;
+    let configIssued = false;
+    let consentWithdrawn = false;
+
+    // Dialog state
+    let settingsTrigger: HTMLElement | null = null;
+    let previousScrollY = 0;
+    let savedBodyOverflow = '';
+    let savedBodyPosition = '';
+    let savedBodyTop = '';
+
+    // DOM references
+    const banner = document.getElementById('financesikh-cookie-banner');
+    const settingsPanel = document.getElementById('financesikh-cookie-settings');
+    const settingsBackdrop = document.getElementById('financesikh-cookie-settings-backdrop');
+    const acceptBtn = document.getElementById('financesikh-cookie-accept');
+    const rejectBtn = document.getElementById('financesikh-cookie-reject');
+    const settingsBtn = document.getElementById('financesikh-cookie-settings-btn');
+    const closeBtn = document.getElementById('financesikh-cookie-settings-close');
+    const saveBtn = document.getElementById('financesikh-cookie-settings-save');
+    const cancelBtn = document.getElementById('financesikh-cookie-settings-cancel');
+    const analyticsInput = document.getElementById('financesikh-cookie-analytics') as HTMLInputElement | null;
+    const analyticsLabel = document.getElementById('financesikh-cookie-analytics-label');
+    const statusMsg = document.getElementById('financesikh-cookie-status');
+
+    // Expose global API so the footer "Cookie settings" button can reopen the panel.
+    window.financesikhCookie = { openSettings: openSettings as (trigger?: HTMLElement | null) => void, closeSettings };
+
+    // --- Consent storage ---
+
+    function readConsent() {
+      try {
+        const raw = localStorage.getItem(CONSENT_KEY);
+        if (!raw) return null;
+        const parsed = JSON.parse(raw);
+        if (
+          parsed &&
+          typeof parsed.version === 'number' &&
+          parsed.version === CONSENT_VERSION &&
+          (parsed.analytics === 'accepted' || parsed.analytics === 'rejected')
+        ) {
+          return parsed;
+        }
+        return null;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function writeConsent(analytics: 'accepted' | 'rejected') {
+      const record = {
+        analytics: analytics,
+        version: CONSENT_VERSION,
+        updatedAt: new Date().toISOString()
+      };
+      try {
+        localStorage.setItem(CONSENT_KEY, JSON.stringify(record));
+        return true;
+      } catch (e) {
+        showStatus('Your choice could not be saved. Analytics remains disabled.');
+        return false;
+      }
+    }
+
+    function showStatus(msg: string) {
+      if (!statusMsg) return;
+      statusMsg.textContent = msg;
+      statusMsg.hidden = false;
+    }
+
+    // --- GA4 lifecycle ---
+
+    function initialiseDataLayer() {
+      if (dataLayerInitialised) return;
+      window.dataLayer = window.dataLayer || [];
+      (window as any).gtag = function gtag(...args: any[]) { (window.dataLayer as any[]).push(args); };
+      (window as any).gtag('js', new Date());
+      dataLayerInitialised = true;
+    }
+
+    function removeGAEventListeners(script: HTMLScriptElement) {
+      script.removeEventListener('load', onGAScriptLoad);
+      script.removeEventListener('error', onGAScriptError);
+    }
+
+    function insertGAScript() {
+      if (scriptInserted) return;
+      const existing = document.querySelector('script[src*="googletagmanager.com/gtag/js"]');
+      if (existing) {
+        scriptInserted = true;
+        const el = existing as HTMLScriptElement;
+        if ((el as any).readyState === 'loaded' || (el as any).readyState === 'complete') {
+          onGAScriptLoad();
+        } else {
+          el.addEventListener('load', onGAScriptLoad);
+          el.addEventListener('error', onGAScriptError);
+        }
+        return;
+      }
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      script.addEventListener('load', onGAScriptLoad);
+      script.addEventListener('error', onGAScriptError);
+      document.head.appendChild(script);
+      scriptInserted = true;
+    }
+
+    function onGAScriptLoad() {
+      const script = document.querySelector('script[src*="googletagmanager.com/gtag/js"]');
+      if (script) {
+        removeGAEventListeners(script as HTMLScriptElement);
+      }
+      gaLibraryLoaded = true;
+      if (consentWithdrawn) return;
+      if (!configIssued && dataLayerInitialised) {
+        (window as any).gtag('config', GA_ID);
+        configIssued = true;
+      }
+    }
+
+    function onGAScriptError() {
+      const script = document.querySelector('script[src*="googletagmanager.com/gtag/js"]');
+      if (script) {
+        removeGAEventListeners(script as HTMLScriptElement);
+      }
+      gaLibraryLoaded = false;
+      scriptInserted = false;
+    }
+
+    function loadGA() {
+      if (consentWithdrawn) return;
+      initialiseDataLayer();
+      insertGAScript();
+      if (gaLibraryLoaded && !configIssued) {
+        (window as any).gtag('config', GA_ID);
+        configIssued = true;
+      }
+      if (typeof window.gtag === 'function' && dataLayerInitialised) {
+        try { (window as any).gtag('consent', 'update', { 'analytics_storage': 'granted' }); } catch (e) {}
+      }
+    }
+
+    function stopAnalytics() {
+      consentWithdrawn = true;
+      try { (window as any)['ga-disable-' + GA_ID] = true; } catch (e) {}
+      if (typeof window.gtag === 'function' && dataLayerInitialised) {
+        try { window.gtag('consent', 'update', { 'analytics_storage': 'denied' }); } catch (e) {}
+      }
+      removeGACookies();
+      if (analyticsInput) {
+        analyticsInput.checked = false;
+        analyticsInput.setAttribute('aria-checked', 'false');
+      }
+      if (analyticsLabel) {
+        analyticsLabel.removeAttribute('aria-checked');
+      }
+    }
+
+    // --- Cookie removal ---
+
+    function removeGACookies() {
+      try {
+        const hostname = window.location.hostname;
+        const parts = hostname.split('.');
+        const domains = [hostname];
+        if (parts.length > 2) {
+          for (let i = 1; i < parts.length; i++) {
+            domains.push('.' + parts.slice(i).join('.'));
+          }
+        }
+        document.cookie.split('; ').forEach(function (pair) {
+          const name = pair.split('=')[0];
+          if (name === '_ga' || name.indexOf('_ga_') === 0) {
+            domains.forEach(function (domain) {
+              ['', 'domain=' + domain, 'domain=.' + domain].forEach(function (suffix) {
+                document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; ' + suffix;
+              });
+            });
+          }
+        });
+      } catch (e) {}
+    }
+
+    // --- Dialog / focus management ---
+
+    function getFocusableElements(container: HTMLElement): HTMLElement[] {
+      const selector = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+      return Array.from(container.querySelectorAll<HTMLElement>(selector))
+        .filter(function (el: HTMLElement) { return !el.hasAttribute('disabled') && el.getAttribute('tabindex') !== '-1'; });
+    }
+
+    function getBackgroundInertElements(): HTMLElement[] {
+      const main = document.getElementById('content');
+      const header = document.querySelector('header');
+      const elements: HTMLElement[] = [];
+      if (main) elements.push(main as HTMLElement);
+      if (header) elements.push(header as HTMLElement);
+      return elements;
+    }
+
+    function setBackgroundInert(inert: boolean) {
+      getBackgroundInertElements().forEach(function (el) {
+        if (inert) {
+          el.setAttribute('inert', 'true');
+        } else {
+          el.removeAttribute('inert');
+        }
+      });
+    }
+
+    function saveBodyStyles() {
+      savedBodyOverflow = document.body.style.overflow;
+      savedBodyPosition = document.body.style.position;
+      savedBodyTop = document.body.style.top;
+    }
+
+    function restoreBodyStyles() {
+      document.body.style.overflow = savedBodyOverflow;
+      document.body.style.position = savedBodyPosition;
+      document.body.style.top = savedBodyTop;
+    }
+
+    function openSettings(trigger?: HTMLElement | null) {
+      settingsTrigger = trigger || null;
+      previousScrollY = window.scrollY;
+      if (!settingsPanel || !settingsBackdrop) return;
+      saveBodyStyles();
+      settingsPanel.classList.remove('hidden');
+      settingsBackdrop.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      document.body.style.position = 'relative';
+      document.body.style.top = '-' + previousScrollY + 'px';
+      setBackgroundInert(true);
+
+      const consent = readConsent();
+      if (consent && analyticsInput) {
+        analyticsInput.checked = consent.analytics === 'accepted';
+        analyticsInput.setAttribute('aria-checked', String(consent.analytics === 'accepted'));
+      }
+
+      const focusables = getFocusableElements(settingsPanel);
+      if (focusables.length > 0) {
+        focusables[0].focus();
+      }
+      settingsPanel.addEventListener('keydown', handleDialogKeydown);
+    }
+
+    function closeSettings() {
+      if (!settingsPanel || !settingsBackdrop) return;
+      settingsPanel.classList.add('hidden');
+      settingsBackdrop.classList.add('hidden');
+      setBackgroundInert(false);
+      restoreBodyStyles();
+      settingsPanel.removeEventListener('keydown', handleDialogKeydown);
+      if (settingsTrigger && document.body.contains(settingsTrigger)) {
+        settingsTrigger.focus();
+      } else if (closeBtn) {
+        closeBtn.focus();
+      }
+      settingsTrigger = null;
+    }
+
+    function handleDialogKeydown(e: KeyboardEvent) {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        e.stopPropagation();
+        closeSettings();
+        return;
+      }
+      if (e.key === 'Tab') {
+        e.preventDefault();
+        const focusables = getFocusableElements(settingsPanel as HTMLElement);
+        if (focusables.length === 0) return;
+        const currentIndex = focusables.indexOf(document.activeElement as HTMLElement);
+        const nextIndex = e.shiftKey
+          ? (currentIndex <= 0 ? focusables.length - 1 : currentIndex - 1)
+          : (currentIndex >= focusables.length - 1 ? 0 : currentIndex + 1);
+        (focusables[nextIndex] as HTMLElement).focus();
+      }
+    }
+
+    // --- Banner display ---
+
+    function setBanner(visible: boolean) {
+      if (!banner) return;
+      if (visible) {
+        banner.removeAttribute('hidden');
+        banner.style.display = 'block';
+      } else {
+        banner.style.display = 'none';
+        banner.setAttribute('hidden', '');
+      }
+    }
+
+    function applySavedToggle(accepted: boolean) {
+      if (analyticsInput) {
+        analyticsInput.checked = accepted;
+        analyticsInput.setAttribute('aria-checked', String(accepted));
+      }
+    }
+
+    // --- Actions ---
+
+    function onAccept() {
+      const saved = writeConsent('accepted');
+      if (!saved) {
+        // Keep settings panel open so the error message remains visible.
+        consentWithdrawn = true;
+        stopAnalytics();
+        return;
+      }
+      setBanner(false);
+      closeSettings();
+      consentWithdrawn = false;
+      try { (window as any)['ga-disable-' + GA_ID] = false; } catch (e) {}
+      loadGA();
+    }
+
+    function onReject() {
+      const saved = writeConsent('rejected');
+      if (!saved) {
+        consentWithdrawn = true;
+        stopAnalytics();
+        return;
+      }
+      setBanner(false);
+      closeSettings();
+      consentWithdrawn = true;
+      stopAnalytics();
+    }
+
+    // --- Initialisation ---
+
+    function init() {
+      const consent = readConsent();
+      if (!consent) {
+        setBanner(true);
+        return;
+      }
+      applySavedToggle(consent.analytics === 'accepted');
+      if (consent.analytics === 'accepted') {
+        consentWithdrawn = false;
+        loadGA();
+      } else {
+        consentWithdrawn = true;
+        stopAnalytics();
+      }
+    }
+
+    // --- Event listeners ---
+
+    if (acceptBtn) acceptBtn.addEventListener('click', onAccept);
+    if (rejectBtn) rejectBtn.addEventListener('click', onReject);
+    if (settingsBtn) settingsBtn.addEventListener('click', function () { openSettings(settingsBtn); });
+    if (closeBtn) closeBtn.addEventListener('click', closeSettings);
+    if (saveBtn) saveBtn.addEventListener('click', function () {
+      if (analyticsInput && analyticsInput.checked) {
+        onAccept();
+      } else {
+        onReject();
+      }
+    });
+    if (cancelBtn) cancelBtn.addEventListener('click', closeSettings);
+    if (settingsBackdrop) settingsBackdrop.addEventListener('click', closeSettings);
+    if (analyticsInput) {
+      analyticsInput.addEventListener('change', function () {
+        analyticsInput.setAttribute('aria-checked', String(analyticsInput.checked));
+      });
+    }
+
+    // Cross-tab storage events: consent change in another tab applies here too.
+    window.addEventListener('storage', function (e) {
+      if (e.key !== CONSENT_KEY) return;
+      const consent = readConsent();
+      if (!consent) {
+        consentWithdrawn = true;
+        stopAnalytics();
+        setBanner(true);
+        return;
+      }
+      if (consent.analytics === 'accepted') {
+        consentWithdrawn = false;
+        try { (window as any)['ga-disable-' + GA_ID] = false; } catch (e) {}
+        loadGA();
+        setBanner(false);
+      } else {
+        consentWithdrawn = true;
+        stopAnalytics();
+        setBanner(false);
+      }
+    });
+
+    init();
+  })();
+</script>
+
+<style>
+  .financesikh-cookie-banner.financesikh-banner-visible {
+    animation: financesikhSlideUp 300ms ease-out forwards;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .financesikh-cookie-banner.financesikh-banner-visible {
+      animation: none;
+    }
+  }
+  @keyframes financesikhSlideUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .cookie-switch {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: inherit;
+  }
+  .cookie-switch-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  .cookie-slider {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    background: var(--color-mist);
+    border: 1px solid var(--color-line);
+    border-radius: 24px;
+    transition: background 0.2s, border-color 0.2s;
+    vertical-align: middle;
+  }
+  .cookie-slider::before {
+    position: absolute;
+    content: '';
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    top: 3px;
+    background: #ffffff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+  .cookie-switch-input:checked + .cookie-slider {
+    background: var(--color-teal);
+    border-color: var(--color-teal);
+  }
+  .cookie-switch-input:checked + .cookie-slider::before {
+    transform: translateX(20px);
+  }
+  .cookie-switch-input:focus-visible + .cookie-slider {
+    outline: 3px solid #e49b36;
+    outline-offset: 2px;
+    border-radius: 28px;
+  }
+</style>
