@@ -5,6 +5,10 @@ pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [old tax regime, new tax regime, tax comparison]
 sources:
+  - name: "Income-tax Act, 2025 and Finance Act 2026 official tax-year guidance"
+    url: "https://www.incometaxindia.gov.in/documents/81799/11848482/memo-2026.pdf/fe530cfa-9c49-fc5c-4bfa-fc96fd5e7b7a?t=1770008674037"
+  - name: "Income Tax Department Budget 2026 FAQs"
+    url: "https://www.incometaxindia.gov.in/Documents/Budget2026/FAQs-Budget-2026.pdf"
   - name: "Income Tax Department"
     url: "https://www.incometax.gov.in/iec/foportal/"
   - name: "India Code"
@@ -19,7 +23,26 @@ Whilst the new regime is the default regime for eligible taxpayers, there could 
 
 If your income was earned between the 1st April 2026 and 31st March 2027, you will be in Tax Year 2026-27 based on the new act. If your income was earned in the previous financial year, you can still refer to this as Assessment Year 2026-27 based on the old act. Even though they can look similar, you must make sure you always use the correct year and act in the official calculator.
 
-[REVIEW BEFORE PUBLISHING] What are the current rates, rebates, standard deduction, surcharge, cess, eligibility and any special treatment of income in Tax Year 2026-27 based on the Income-tax Act, 2025 and Finance Act? You will need to double check these figures are correct from the official portal and legislation. Don’t just copy across previous tax slabs as the title may suggest it is the latest.
+### Tax Year 2026-27: headline slab rates
+
+For an individual below 60 years, the headline slab rates are shown below. These are marginal slab rates, not a flat rate on the whole income. Special-rate income (for example, certain capital gains), surcharge, rebate, deductions and other adjustments can change the final liability.
+
+| Taxable income slab | Default new regime | Old regime (individual below 60) |
+|---|---:|---:|
+| Up to ₹2,50,000 | 0% | 0% |
+| ₹2,50,001–₹4,00,000 | 0% | 5% on amount above ₹2.5 lakh |
+| ₹4,00,001–₹5,00,000 | 5% | 5% on amount above ₹2.5 lakh |
+| ₹5,00,001–₹8,00,000 | 5% | 20% on amount above ₹5 lakh |
+| ₹8,00,001–₹10,00,000 | 10% | 20% on amount above ₹5 lakh |
+| ₹10,00,001–₹12,00,000 | 10% | 30% on amount above ₹10 lakh |
+| ₹12,00,001–₹16,00,000 | 15% | 30% on amount above ₹10 lakh |
+| ₹16,00,001–₹20,00,000 | 20% | 30% on amount above ₹10 lakh |
+| ₹20,00,001–₹24,00,000 | 25% | 30% on amount above ₹10 lakh |
+| Above ₹24,00,000 | 30% | 30% on amount above ₹10 lakh |
+
+For the default new regime, the basic exemption is ₹4 lakh. A resident individual may receive a rebate of up to ₹60,000 where total income does not exceed ₹12 lakh, subject to the law’s conditions and marginal relief just above that threshold. A standard deduction of up to ₹75,000 is available against salary/pension income under the new regime. Under the old regime, the standard deduction is ₹50,000; the rebate for a resident individual is up to ₹12,500 where total income does not exceed ₹5 lakh. The old-regime basic exemption is age-dependent: ₹2.5 lakh for individuals below 60, ₹3 lakh for resident senior citizens aged 60–79, and ₹5 lakh for resident super-senior citizens aged 80 or above.
+
+Health and Education Cess is 4% of income tax plus surcharge. Surcharge may apply above the prescribed income thresholds and its rate/cap depends on the regime and type of income. Do not use this summary for special-rate income, non-resident cases, or a taxpayer with complex income without checking the official calculation. The new regime is the default under section 202 of the Income-tax Act, 2025. The rates and rebate above are based on the Finance Act 2026 / official tax-year guidance. [Income Tax Department: Tax Year 2026-27 rates](https://www.incometaxindia.gov.in/documents/81799/11848482/memo-2026.pdf/fe530cfa-9c49-fc5c-4bfa-fc96fd5e7b7a?t=1770008674037) | [Income Tax Department: Budget 2026 FAQs](https://www.incometaxindia.gov.in/Documents/Budget2026/FAQs-Budget-2026.pdf).
 
 Know what income you’re comparing.
 
@@ -33,7 +56,7 @@ How to compare step-by-step.
 
 Start by gathering the salary statement for the year, any form 16 available, other income and eligible deductions. Calculate your taxable income based on the old regime and only the deductions available. Then calculate your taxable income based on the new regime and eligible deductions and exemptions. Apply the correct rates and rebates (double checked) for the correct tax year. Compare the total tax including any cess and surcharge.
 
-This will give you the same income and time period for both sides of the comparison. If you are making a deduction in one regime that isn’t available in the other, this won’t be a valid comparison. Using a spreadsheet can help you see how each item has affected your total. However, you should use the official calculator to double check. It can also be useful to keep a note of your assumptions so you can go back and review if there has been any changes to your salary components or tax rules.
+This will give you the same income and time period for both sides of the comparison. If you are making a deduction in one regime that isn’t available in the other, this won’t be a valid comparison. Using a spreadsheet can help you see how each item has affected your total. However, you should use the official calculator to double check. Keep your assumptions so you can review changes to salary components or tax rules.
 
 Example calculation.
 
@@ -49,7 +72,9 @@ Just because you can make a payment to save on tax, doesn’t mean it is a good 
 
 Declaration to employer.
 
-You may be asked to declare to your employer which regime you want to use. This will affect the amount of tax you have had deducted throughout the year. However, this doesn’t mean you will be using that option for your final calculation. Based on the rules you may have an option, however you may not be as flexible if you are a non-business taxpayer. [REVIEW BEFORE PUBLISHING] What is the current process for declaring your regime? Is there a Form 10-IEA or equivalent required for your taxpayer category based on the Income-tax Act, 2025?
+Your employer may ask you to state the regime you want them to use when calculating salary TDS. This is a payroll withholding declaration; it is not, by itself, the final exercise of the option in your income-tax return. Under the Income-tax Department’s guidance, a taxpayer without business or professional income can generally choose the regime in the return for each tax year, subject to filing within the prescribed due date. A taxpayer with business or professional income is subject to different rules for opting out of the default regime and changing that choice.
+
+For Tax Year 2026-27, use the forms and process prescribed under the Income-tax Act, 2025 and Income-tax Rules, 2026. Do not automatically copy the old Form 10-IEA reference into a new-tax-year article. Check the current e-filing portal instructions for the relevant taxpayer category and keep the employer’s payroll declaration separate from the return-level regime option. [Income Tax Department: Income-tax Act, 2025 and Rules, 2026](https://www.incometaxindia.gov.in/en/income-tax-act-202511) | [Income Tax Department: Transition FAQs](https://www.incometaxindia.gov.in/documents/81799/11848482/FAQs-on-Interplay-and-Transition.pdf/05f80c1a-073c-a5d7-fb6f-55509242be53?doAsUserId=9rMQatnoqCcGNU9mEWvVNA%3D%3D&t=1774082865717).
 
 Before you file your return, you should review your calculation. If you have a different amount of tax deducted at source, you may find you have a balance to pay or receive a refund based on the facts. Try not to assume this is an error by your employer or tax portal. Instead look into what the issue is using the official records.
 
@@ -75,15 +100,11 @@ Keep any evidence to support your eligible deductions and exemptions. Depending 
 
 ## Why is my take home pay different to my taxable income?
 
-Your take home pay shows what you have had deducted and paid in your payroll. Your taxable income is calculated based on the rules. They can be different due to tax, eligible deductions, exemptions, perquisites, employer contributions and other incomes. Starting with the amount you have received into your bank account could lead to an incorrect comparison. Start with the correct income details and use the official calculation.
-
-Keep a note of your comparison.
-
-Make sure you keep a note of your income details, deductions assumptions, tax year, calculator results and official references. This can help you explain why your result has changed if there are any corrections to your salary components or updates to any rules. Don’t just keep a note of the final figure. Without knowing what has gone into the calculation, you won’t be able to check. If there is a discrepancy between what you’ve had deducted in your payroll, compare the employer’s records and official calculation to see what has caused the difference.
-
-You should also consider the difference between your tax liability and cash flow decisions. You may have an eligible deduction but it is linked to a product that has a lock-in or other cost. The tax calculation will show you how much you would have based on the rules. However, it won’t tell you if it is a sensible payment to make in your household.
-
 ## Continue reading
 
 - Compare tax-linked features in [ELSS, PPF, and NPS Compared](/blog/elss-ppf-nps-compared/).
 - Build a household spending view with [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
+
+---
+
+**Regulatory and tax information checked:** 9 November 2026. Rules can change; check the linked official source and your own policy/account documents before acting.

@@ -1,10 +1,14 @@
 ---
 title: "NPS Basics for Salaried Beginners"
-description: "An introduction to India’s National Pension System, including Tier I and Tier II, contributions, investment choices, tax treatment and exit rules to verify."
+description: "An introduction to India’s National Pension System, including Tier I and Tier II, contributions, investment choices, tax treatment and exit rules under current regulations."
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [NPS, Tier I, pension planning]
 sources:
+  - name: "Income-tax Act, 2025, sections 123 and 124"
+    url: "https://www.incometaxindia.gov.in/Documents/Act/Income-tax-Act-2025.pdf"
+  - name: "PFRDA NPS Exit and Withdrawal Regulations, amended 20 July 2026"
+    url: "https://www.pfrda.org.in/en/web/pfrda/w/pension-fund-regulatory-authority-exits-and-withdrawals-under-the-national-pension-system-regulations-2015-last-amended-on-20th-july-2026-"
   - name: "PFRDA"
     url: "https://www.pfrda.org.in/"
   - name: "Income Tax Department"
@@ -17,7 +21,9 @@ As a salaried individual starting out with this scheme you’ll want to understa
 
 ## Tier I and Tier II
 
-Tier I accounts are the main retirement account and will have some limitations around withdrawing funds. Tier II accounts are optional accounts which can be accessed based on eligibility and any conditions. The two accounts are very different when it comes to access and tax. You cannot assume that Tier II will have any tax benefits as the eligible contributions are only in Tier I. [Verify before publishing: What is the eligibility, withdrawal conditions and tax for Tier II in current model?]
+Tier I is the primary retirement account and withdrawals are restricted by the NPS exit and partial-withdrawal rules. Tier II is an optional investment account available to eligible subscribers who hold an active Tier I account, subject to the applicable NPS model and operational rules. Ordinary Tier II contributions do not generally receive the same tax deductions as Tier I contributions, and Tier II withdrawals are more flexible.
+
+There is a special **Tier II Tax Saver Scheme** for eligible Central Government employees with an active Tier I account. PFRDA’s government-sector FAQs state that this option has a three-year lock-in and is not the same as an ordinary Tier II account. Do not assume this tax-saver feature applies to all subscribers or all employer models. Check the rules for your own sector and account before investing or withdrawing. [PFRDA: Government-sector NPS exit FAQs](https://www.pfrda.org.in/documents/33652/676426/Exits%2Band%2BWithdrawals%2Bunder%2BNPS%2Bfor%2BGovernment%2BSector%2B%28CG%2B%2BCAB%29.pdf).
 
 Ensure you’re aware of any changes in the rules by checking the current PFRDA rules and official NPS resources. Sometimes this can be covered in a short article or social media post but you may be on a different model. Government employees, corporate and all citizen models will have different conditions. The exact model you’re on is a fact.
 
@@ -35,7 +41,13 @@ When planning for your pension income you’ll need to think about how long you�
 
 ## Tax
 
-There can be tax implications for contributing to and withdrawing from your NPS. This will depend on your eligibility, employment, what type of contribution you’re making, tax regime and current laws. Don’t assume a limit from an old article as this may have changed. Ensure you have a good understanding of what you can claim based on the current guidance from the Income Tax Department. [Verify before publishing: What is the current level of deductions for employee, employer and individual contributions in the Income-tax Act, 2025 for Tax Year 2026-27? What section numbers are these?]
+For Tax Year 2026-27, the Income-tax Act, 2025 applies. Section 124 covers eligible contributions to a notified pension scheme such as NPS. In broad terms:
+
+- An employee may claim a deduction for an eligible employer contribution, subject to a percentage-of-salary ceiling. The limit is 14% for contributions by Central or State Government employers. For other employers it is 10%, increased to 14% where the employee’s income is taxed under the default regime in section 202(1).
+- An individual may claim a deduction of up to ₹50,000 for their own eligible contribution under section 124(3), subject to the conditions and the rule against claiming the same amount again under section 123.
+- Eligible contributions to NPS may also fall within section 123 and Schedule XV’s aggregate ₹1.5 lakh deduction under the old regime, subject to the schedule’s conditions. Section 123 deductions are not available under the new concessional regime in section 202.
+
+These limits are not interchangeable: employer contributions, an individual’s own contributions and contributions claimed under section 123 have separate conditions. The treatment of withdrawals and annuity income is also separate. Read [section 124 of the Income-tax Act, 2025](https://www.incometaxindia.gov.in/Documents/Act/Income-tax-Act-2025.pdf), [section 123](https://www.incometaxindia.gov.in/w/section-123-92), and the Income-tax Department’s [transition FAQs](https://www.incometaxindia.gov.in/documents/81799/11848482/FAQs-on-Interplay-and-Transition.pdf/05f80c1a-073c-a5d7-fb6f-55509242be53?doAsUserId=9rMQatnoqCcGNU9mEWvVNA%3D%3D&t=1774082865717). Confirm the current rule for your employment category and tax regime before filing.
 
 There can be tax implications based on when you exit your account. If you take a lump sum, buy an annuity and receive income from it this can be taxed differently. There may also be conditions around partial withdrawals and full exits.
 
@@ -77,7 +89,25 @@ Ensure you keep records of your confirmation of contributions and annual stateme
 
 Your retirement age, family commitments and expected spending can change throughout your working life. Whilst it’s a good idea to periodically review why you’re saving for retirement, don’t make a change due to short term market fluctuations. Consider the rules of your account, what assets you’re invested in, fees and how this fits into your wider household. You’re not trying to predict everything that will happen but to ensure you’re not leaving your assumption in place forever.
 
+## Check the account details before increasing contributions
+
+An NPS account is not just a monthly deduction. Review the subscriber details, nominee information, registered mobile number, email address, bank mandate and contribution history. If you are salaried, compare the amount shown in your payslip with the contribution reflected in the account. An employer contribution and your own contribution are not interchangeable for tax purposes, so keep the records separate. If a contribution is missing, raise it with the employer or the relevant NPS service channel and retain the acknowledgement.
+
+Look at the investment choice and asset allocation as well. The value can move with markets, and a retirement account may contain different asset classes with different risk characteristics. Understand whether you selected an active choice or an auto choice, what the permitted allocation rules are and whether your current selection still matches your time horizon and tolerance for volatility. Do not change the allocation simply because one asset class had a strong recent year.
+
+## Estimate retirement income cautiously
+
+A projected corpus is not the same as a guaranteed pension. Any calculator result depends on assumptions about contribution growth, investment returns, charges, inflation and the number of years remaining. Small changes to those assumptions can produce a very different estimate. Try more than one scenario and label each one clearly. A projection using a steady return is a teaching illustration; real returns will not arrive in a straight line.
+
+Think about the expenses the retirement corpus may need to support. Housing, healthcare, dependants and location can change the amount required. Inflation matters because the same rupee amount will buy less in the future. It may help to review the projection annually and after a salary change, but avoid treating a single target as precise. NPS can form one part of a wider retirement plan alongside EPF, PPF, other savings and any pension entitlements.
+
+## Understand exit rules before you need the money
+
 ## Continue reading
 
 - Compare retirement-linked options in [ELSS, PPF, and NPS Compared](/blog/elss-ppf-nps-compared/).
 - Review how tax comparisons work in [Old vs New Tax Regime](/blog/old-vs-new-tax-regime/).
+
+---
+
+**Regulatory and tax information checked:** 9 November 2026. Rules can change; check the linked official source and your own policy/account documents before acting.

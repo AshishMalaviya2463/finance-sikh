@@ -9,6 +9,8 @@ sources:
     url: "https://www.indiapost.gov.in/banking-services/savings"
   - name: "National Savings Institute"
     url: "https://nsiindia.gov.in/"
+  - name: "Income-tax Act, 2025, section 123 and Schedule XV"
+    url: "https://www.incometaxindia.gov.in/w/section-123-92"
 ---
 
 The Public Provident Fund (PPF) is a small savings scheme that is backed by the Government. Unlike a bank savings account your money will be invested for a long period of time and will be subject to the rules of the scheme. It is also different to a market linked mutual fund as the PPF account follows the rules of the notified scheme and therefore the interest rate can vary dependent on declaration by the Government. When researching a PPF you should look at the difference between the interest rate and the rules of the scheme.
@@ -45,7 +47,11 @@ Having restrictions on accessing your funds can be both a positive and a negativ
 
 ## Tax Status
 
-Historically the PPF has had tax benefits. However the tax status will depend on the law, tax year, your situation and the regime you are choosing. The Income-tax Act and rules can change so terms used in older articles may not be the same as now. [ VERIFY BEFORE PUBLISHING: What is the current tax status of contributions, interest and maturity for Tax Year 2026-27? Please include what is stated in the legislation.]
+For Tax Year 2026-27, eligible PPF deposits can be included in the aggregate deduction under section 123 read with Schedule XV of the Income-tax Act, 2025, up to ₹1.5 lakh across the qualifying payments listed there. This deduction is available under the old regime, subject to the schedule’s conditions; it is not available under the default new regime in section 202.
+
+Interest credited to a PPF account and qualifying payments from the account receive the exemption provided under the PPF scheme and the applicable income-tax provisions. Do not extend that statement to every transaction without checking the account’s compliance with the scheme, the nature of the receipt and the current law. PPF’s tax treatment is often described as exempt contribution, exempt interest and exempt qualifying maturity proceeds, but the contribution deduction and the exemption on interest/withdrawal are separate legal questions.
+
+For the contribution deduction, read [section 123 of the Income-tax Act, 2025](https://www.incometaxindia.gov.in/w/section-123-92) and Schedule XV. For the scheme’s account and deposit conditions, read the [Public Provident Fund Scheme, 2019](https://nsiindia.gov.in/InternalPage.aspx?Id_Pk=169). Check the latest Income-tax Department guidance before filing a return.
 
 Not all taxpayers will find it beneficial to get a tax deduction. Depending on the regime you may not be able to claim it or it may not be relevant. You should not make a contribution purely to get a tax tag on the account. You should always refer to the official Income Tax Department guidance.
 
@@ -81,7 +87,19 @@ If you are seeing different info in your bank app, post office passbook and onli
 
 You should be aware of the difference between the maximum deposit and maximum balance. If there is a maximum deposit per year based on the rules of the scheme this does not mean there is a maximum balance. The current official rules will tell you what the maximum is and what will happen if you exceed it. Do not assume based on what a calculator says or what someone else says.
 
+## Build a contribution habit without stretching cash flow
+
+PPF is a long-term account, so the contribution plan should be sustainable. You can deposit in one payment or in instalments, subject to the scheme's annual minimum and maximum. Before choosing a monthly amount, account for rent, EMIs, insurance premiums, school fees and emergency savings. A contribution that forces you to borrow on a credit card defeats the purpose of disciplined saving. If your income is irregular, you may prefer to make contributions when cash is available while keeping track of the annual minimum and deadline.
+
+## Understand the difference between maturity and access
+
+## Review the rate and tax treatment from official documents
+
 ## Continue reading
 
 - Compare structures in [ELSS, PPF, and NPS Compared](/blog/elss-ppf-nps-compared/).
 - Build accessible savings first with [Emergency Fund: How Much to Keep](/blog/emergency-fund/).
+
+---
+
+**Regulatory and tax information checked:** 9 November 2026. Rules can change; check the linked official source and your own policy/account documents before acting.

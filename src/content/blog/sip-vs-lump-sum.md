@@ -81,6 +81,16 @@ You can run a back test to see how each would perform over a historical period. 
 
 If this data is shown in an article then you should state what period you are looking at and how you have analysed it. A short period may not be representative of a long term goal. The more detailed a chart looks, the more important it is to state what isn’t included.
 
+## The source of the money changes the comparison
+
+A salaried investor who receives money every month is not making the same choice as someone who already has a large amount sitting in a bank account. A monthly SIP can match the timing of salary and make investing more routine. A lump sum may be relevant when a bonus, inheritance or maturity proceeds are already available. In the second case, leaving the whole amount in cash while gradually investing it is also a decision with its own opportunity cost and risks.
+
+Do not create a lump sum just to compare it with an SIP. Borrowing to invest introduces interest costs and repayment risk that are not part of a normal SIP-versus-lump-sum comparison. Likewise, do not invest money needed for an imminent expense simply because a calculator suggests that more time in the market may improve expected outcomes. The goal's date and your ability to tolerate a fall matter as much as the method of investing.
+
+## Why a fair example needs clear assumptions
+
+## Make the decision repeatable
+
 ## Continue reading
 
 - Start with [What Is a SIP?](/blog/what-is-a-sip/) if the mechanics are new to you.

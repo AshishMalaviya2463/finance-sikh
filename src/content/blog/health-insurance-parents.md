@@ -5,6 +5,8 @@ pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [senior health insurance, co-payment, waiting period]
 sources:
+  - name: "IRDAI Master Circular on Health Insurance Business, 29 May 2024 (circular reference)"
+    url: "https://irdai.gov.in/"
   - name: "IRDAI"
     url: "https://irdai.gov.in/"
 ---
@@ -39,7 +41,11 @@ Sub-limits can apply to various treatments, procedures or costs. Some policies w
 
 Your parent may suffer from Diabetes, Hypertension or another condition that needs to be managed. Depending on what you declare, how they are underwritten, what the policy states and the regulations, you won’t know what will happen. This can’t be determined in a general article. Be sure to check the current IRDAI regulations and policy wording.
 
-It is important to know how your policy will renew. This is to ensure you have cover. Find out how the premium is charged, when it needs to be paid, the grace period and what will happen if you don’t renew. Premiums can vary depending on the policy and regulations. Don’t assume that if you are quoted a price for age 61 you will pay the same price throughout the rest of your life. [Verify current IRDAI regulations for renewal, premium revision, portability & migration of this type of policy.]
+It is important to understand the renewal terms so that cover does not lapse unexpectedly. Under IRDAI’s Master Circular on Health Insurance Business dated 29 May 2024, the grace period is 15 days for monthly premium instalments and 30 days for quarterly, half-yearly or annual instalments. If a policy is renewed within the grace period, accrued credits such as sum insured, no-claim bonus, specific-disease waiting-period credit, pre-existing-disease waiting-period credit and moratorium credit are protected. Where premium is paid in instalments during the policy period, cover is available during the grace period.
+
+A health policy is generally renewable unless the product has been withdrawn or an allowed exception such as established fraud, non-disclosure or misrepresentation applies. An insurer cannot refuse renewal merely because a claim was made in an earlier policy year. At renewal, fresh underwriting is generally not permitted unless the policyholder requests an increase in sum insured; underwriting may then be applied to the increased portion as permitted by the rules. The circular also provides for migration within the same insurer and portability to another insurer, with eligible continuity credits carried forward subject to the prescribed process and underwriting rules.
+
+These protections do not mean the premium will remain unchanged for life. Premiums can change under the product’s approved pricing and applicable regulatory requirements. Review the renewal notice, policy schedule and wording, and ask the insurer to explain any proposed premium change in writing. Refer to IRDAI’s **Master Circular on Health Insurance Business**, Ref. IRDAI/HLT/CIR/PRO/84/5/2024, dated 29 May 2024, and check IRDAI’s website for any later amendment or replacement before relying on a specific rule.
 
 ## Exclusions & Claims Process
 
@@ -83,7 +89,21 @@ Once you have left the hospital compare the settlement statement to your bill. A
 
 Even though it is convenient to have a local network hospital, don’t forget to check room limits, treatment sub-limits, exclusions and co-pay. Hospitals can change their network status. Ensure you know what the current status is and have a realistic way to pay for any costs that aren’t covered. The aim is to not rely on one aspect of marketing and forget about the other limitations in the contract.
 
+## Turn policy wording into a practical hospital checklist
+
+When comparing cover for a parent, do not stop at the sum insured shown on the first page. Read the schedule and policy wording together. Note the room category, co-payment, disease-wise sub-limits, deductible, waiting periods, exclusions and the process for cashless authorisation. A policy with a large headline amount can still leave a substantial bill if a room limit or co-pay applies. Ask the insurer or intermediary to point to the exact clause and keep the written response.
+
+Make a one-page summary for the family. Include the insurer's claims helpline, policy number, renewal date, TPA details if applicable, nearby network hospitals and the documents commonly requested. Store it securely and tell the person who may accompany your parent where it is kept. Do not put sensitive medical or policy information in a public document. During a hospital admission, ask the hospital insurance desk to submit pre-authorisation promptly and keep copies of bills, prescriptions, discharge notes and payment receipts.
+
+## Compare the likely out-of-pocket amount
+
+## Renewal and continuity deserve attention
+
 ## Continue reading
 
 - Learn policy wording terms in [Health Insurance Waiting Periods and Sub-limits](/blog/waiting-periods-sublimits/).
 - Consider affordability alongside [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
+
+---
+
+**Regulatory and tax information checked:** 9 November 2026. Rules can change; check the linked official source and your own policy/account documents before acting.

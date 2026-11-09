@@ -7,6 +7,8 @@ relatedKeywords: [credit score, credit report, credit utilisation]
 sources:
   - name: "RBI"
     url: "https://www.rbi.org.in/"
+  - name: "RBI Free Annual Credit Report Direction"
+    url: "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10590&Mode=0"
 ---
 
 Your credit score is calculated using a credit scoring algorithm and information held by the credit information company. Lenders can use this alongside the credit report, income, obligations and other information to help them decide whether to lend you.
@@ -33,7 +35,9 @@ Don’t apply for multiple products to see which one will approve you. This can 
 
 ## How to view your report
 
-Go to the official website of the credit information company. You’ll need to verify your identity. As noted by the RBI, individuals can obtain one free full credit report (including score) per calendar year from the relevant credit information companies. [Verify current rules from the RBI regarding free full credit reports, how often they can be obtained, what channels they can be obtained from and how to escalate a complaint.]
+Go to the official website of each credit information company (CIC) that holds your credit history and complete its identity-verification process. RBI directions require each CIC to provide an individual, on request and after due authentication, one free full credit report (FFCR), including the credit score, once in each calendar year. The report is electronic, and each CIC must publish the process for obtaining it on its website. This is a separate entitlement with each CIC; it is not a single report shared across all bureaus.
+
+If you find an error, raise a dispute with the CIC and the lender or other credit institution that supplied the information. Keep the complaint reference and supporting records. RBI’s credit-information framework provides a compensation mechanism for qualifying delays in correction, subject to the prescribed conditions. If the complaint remains unresolved for more than 30 days, or you are dissatisfied with the response, you may use the RBI Complaint Management System where the matter is covered by the RBI Integrated Ombudsman Scheme. Check the current eligibility and filing instructions before escalating. [RBI: Free Annual Credit Report](https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=10590&Mode=0) | [RBI: Credit Information Reporting awareness](https://www.rbi.org.in/commonperson/images/FAME202426022024.pdf) | [RBI Complaint Management System](https://cms.rbi.org.in).
 
 Ensure all your accounts match what you have. Check there isn’t an outstanding loan, a late payment when you’ve paid on time, duplicate or not your account. Ensure your personal details are correct. Keep copies of statements, closure letters, payment confirmation and any other documents to help with disputes.
 
@@ -83,7 +87,27 @@ If you’re struggling to make repayments, contact the lender using official cha
 
 Once your dispute has been resolved, obtain a new report. Allow time for the relevant updates to be reported. The score won’t necessarily increase by a set amount. Even if there’s a mistake, your score can depend on other information and the proprietary algorithm. The aim of disputing is to have accurate data.
 
+## Read the report before trying to change the number
+
+A score is a summary, not a diagnosis. Two people can have the same score for different reasons, so the useful work begins with the account-level information in the credit report. Check whether each loan is yours, whether the account is open or closed, whether the outstanding balance looks right and whether the payment history matches your records. Look carefully at dates: a payment made near a reporting cut-off may not appear in the same month you expect.
+
+If you find a mismatch, keep the relevant statement, payment receipt, closure letter or lender email. Raise a dispute with the credit information company and, where appropriate, the lender that supplied the data. Write a clear explanation and identify the account and month involved. Save the complaint reference and response. Do not pay an agent who promises to erase accurate negative information or produce a particular score. A legitimate correction process is not a guaranteed score-improvement service.
+
+## Why a closed loan may still appear
+
+A credit report can retain historical account information after a loan has been repaid. Seeing a closed account is not automatically an error. What matters is whether its status, balance and dates are accurate. If the report still shows an amount due after you have a no-dues certificate, ask the lender to investigate and update the information sent to the bureau. Keep the certificate even after the account disappears from your active list.
+
+## Avoid turning score improvement into more borrowing
+
+It is easy to hear that a “credit mix” is helpful and conclude that you should take a loan you do not need. That is a poor reason to borrow. Interest, fees and the risk of missing a payment are real; a possible score effect is uncertain and depends on the wider report. Use credit only when there is a genuine need and the repayment fits your budget. A good score cannot make an unaffordable EMI safe.
+
+The most useful outcome is an accurate report and borrowing history you can comfortably maintain. The score may respond over time, but lenders still assess income, existing obligations, stability and their own policy. Treat the number as one part of the picture, not a promise of approval.
+
 ## Continue reading
 
 - See how repayment schedules work in [EMI vs Prepayment](/blog/emi-vs-prepayment/).
 - Review household commitments in [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
+
+---
+
+**Regulatory and tax information checked:** 9 November 2026. Rules can change; check the linked official source and your own policy/account documents before acting.

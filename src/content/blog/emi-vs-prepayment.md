@@ -7,6 +7,8 @@ relatedKeywords: [home loan EMI, loan prepayment, amortisation]
 sources:
   - name: "RBI"
     url: "https://www.rbi.org.in/"
+  - name: "RBI Pre-payment Charges on Loans Directions, 2025"
+    url: "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=12878"
 ---
 
 EMI’s are usually composed of interest plus principal repayments. The initial EMIs paid when you take out a fully amortising loan will be higher in interest due to the higher outstanding principal. As you start to pay down your loan the interest charged on the outstanding will decrease and more of your payment will make up your principal.
@@ -51,7 +53,9 @@ By paying off your loan you’re losing the opportunity to use this money for so
 
 ## Lenders Terms and Fees
 
-Ensure you understand your lenders terms and conditions. Check if there is a minimum amount you can pay, if there is a certain method you can make the payment through, how it will affect your EMIs, term, if partial prepayments are allowed and any fees for this specific loan type and category. Regulations can vary depending on your loan and may change. [ VERIFY BEFORE PUBLISHING – What are the current directions from RBI and what are the terms from your lender regarding any fees for prepayment/foreclosure for this specific home loan type? ]
+Ensure you understand your lender’s terms and conditions. Check whether there is a minimum prepayment amount, an approved payment method, a limit on the number or timing of part-payments, and how the payment will affect your EMI or loan term.
+
+RBI’s Pre-payment Charges on Loans Directions, 2025 apply to loans and advances sanctioned or renewed on or after 1 January 2026 by the regulated entities covered by the Directions. For floating-rate loans granted to individuals for purposes other than business, lenders covered by the Directions must not levy prepayment charges, whether the loan is prepaid partly or in full. The Directions also cover specified floating-rate business loans to individuals and micro and small enterprises, subject to the limits and conditions in the circular. They do not create a blanket no-charge rule for every fixed-rate loan, every lender, or every older loan agreement. For a loan outside the covered categories or dates, check the applicable RBI instructions and the sanction letter/loan agreement. [RBI: Pre-payment Charges on Loans Directions, 2025](https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=12878).
 
 Save your proof of payment and ask for an updated repayment schedule. Ensure that your payment was applied to your principal and see what your new outstanding is. If your lender gives you the option to reduce your EMIs or term understand the impact it will have on your cashflow and interest.
 
@@ -77,7 +81,27 @@ Save your proof of payment and ask for an updated loan statement. Ensure your pa
 
 Ensure you make your prepayment using your lenders authorised method. Do not send money into your own account or rely on someone promising to apply it to your loan. Ensure you have proof from an official statement.
 
+## Understand the statement before making an extra payment
+
+A home-loan statement usually shows the outstanding principal, interest charged, amount paid and remaining tenure. Check that the statement is current and that any recent rate reset or payment has been reflected. If you are considering a prepayment, ask the lender for the process, minimum amount if any, how the payment will be allocated and whether you can choose a shorter tenure or a lower EMI. Get the revised schedule in writing and compare it with the old one.
+
+A simple illustration can help explain why timing matters. In the early years of a typical amortising loan, a larger share of each EMI goes towards interest because the outstanding principal is high. As principal reduces, the interest portion generally falls. An extra principal payment earlier in the schedule can therefore reduce the balance on which future interest is calculated. The exact saving depends on the rate, remaining tenure, timing, fees and how the lender applies the payment. Do not rely on a generic online example as your personal saving figure.
+
+## Keep a cash buffer before accelerating repayment
+
+Putting every spare rupee into a home loan can leave you short when a medical bill, job interruption or repair arrives. Before making a large prepayment, consider whether you have accessible emergency savings, adequate insurance and near-term expenses already funded. A loan balance may be lower, but money paid into the loan is not always easy to retrieve. Compare the benefit of reducing interest with the value of keeping cash available.
+
+Also compare the loan rate with the realistic after-tax return and risk of any alternative use of the money. This is not a simple contest between a guaranteed loan-rate saving and an assumed investment return. Investments can lose value, taxes and costs apply, and the time horizon matters. Avoid using optimistic market assumptions to justify keeping expensive debt, but do not ignore liquidity either.
+
+## What to confirm with the lender
+
+After payment, verify that the principal has reduced and keep the receipt and revised repayment schedule. A prepayment is only useful if it is correctly credited. Review the loan once a year or after a rate reset, but do not make repeated changes based on every small market movement.
+
 ## Continue reading
 
 - See how repayment behaviour relates to reports in [How Credit Scores Work in India](/blog/credit-scores-india/).
 - Keep liquidity in view with [Emergency Fund: How Much to Keep](/blog/emergency-fund/).
+
+---
+
+**Regulatory and tax information checked:** 9 November 2026. Rules can change; check the linked official source and your own policy/account documents before acting.

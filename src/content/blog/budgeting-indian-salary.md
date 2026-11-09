@@ -83,6 +83,20 @@ A useful review would be to ask yourself a few questions. Did you go over your b
 
 Try to keep your review factual. You don’t want to be labelling everything as good or bad. A monthly budget should allow you to enjoy normal things where possible. If your budget is too strict then you are unlikely to find it useful. Look at your numbers and make 1 or 2 realistic changes. See if these helped next month.
 
+## Build a budget that survives an ordinary month
+
+A budget should work when life is busy, not only on the day you create it. Start with take-home pay that actually reaches your account. If your salary includes a variable bonus, reimbursement or incentive, do not rely on that amount for rent, groceries or an EMI. Treat uncertain income as extra until it is received. If you are paid on the last working day, plan bill dates around that date and leave a small balance for timing differences.
+
+Separate fixed commitments from expenses that move around. Rent, loan instalments, school fees and insurance premiums are predictable, although they may not be monthly. Groceries, fuel, electricity and medical spending can vary. A practical budget gives these categories realistic ranges instead of pretending every month is identical. Review at least two or three months of transactions before setting targets; one unusual month can distort the picture.
+
+For example, a person earning ₹60,000 after deductions might have ₹18,000 rent, ₹6,000 EMI, ₹8,000 groceries and household bills, ₹4,000 transport, and ₹3,000 set aside for annual expenses. The remaining amount is not automatically “free money”. It still has to cover healthcare, family support, personal spending, savings and irregular costs. Your own figures may look very different, especially if you live in a high-rent area or support relatives.
+
+## When the usual percentage rules do not fit
+
+The 50/30/20 rule is a starting point, not a test you pass or fail. In a city where rent and commuting absorb a large share of income, essentials may exceed half of take-home pay. Do not force the numbers into a neat ratio by underestimating groceries or leaving out family commitments. Show the real position first. Then look for changes that are possible: a renewal negotiation, a less expensive commute, a subscription you no longer use, or a plan to refinance only after comparing total costs.
+
+## A monthly check-in that takes fifteen minutes
+
 ## Continue reading
 
 - Plan for unexpected costs with [Emergency Fund: How Much to Keep](/blog/emergency-fund/).

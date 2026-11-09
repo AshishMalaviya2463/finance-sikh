@@ -79,6 +79,20 @@ Checking your mutual fund balance multiple times a day can create a sense of a p
 
 Refer to official investor education and scheme documentation to better understand the risks. Remember all projections are scenarios and any market related balances will fluctuate.
 
+## Set up the SIP so it fits your real cash flow
+
+Choose a debit date that follows your salary or other regular income, while leaving enough money for rent, EMIs and bills. If the debit is scheduled before payday, a temporary cash shortage may cause a failed instalment. Read the mandate terms and check how to pause, modify or cancel it. A SIP is a standing instruction to invest; it is not a loan repayment and it should not take priority over essential expenses.
+
+Before selecting a fund, identify the goal and the time available. A short-term goal generally cannot absorb the same market volatility as a retirement goal many years away. Look at the fund's investment objective, portfolio, riskometer, benchmark, expense ratio and exit load. The word “SIP” does not tell you whether the underlying investment is low-risk or suitable. A SIP in an equity fund remains exposed to equity-market losses.
+
+## Understand what happens when markets fall
+
+When the market falls, a fixed instalment may buy more units at the lower net asset value. That is the arithmetic behind rupee-cost averaging. It does not prevent the investment from losing value, and it does not guarantee a profit when you redeem. If the market continues to fall or the fund performs poorly, the total value can remain below the amount invested for a period of time. Your ability to stay invested depends on the goal, time horizon and financial capacity to tolerate losses.
+
+Do not increase the SIP just because a fund has recently performed well. Check whether the amount is affordable and whether your overall asset allocation has become too concentrated. Similarly, do not stop a long-term SIP solely because of a short market decline if the original goal and risk capacity have not changed. Revisit the reason for the investment before making a decision.
+
+## Keep a simple record
+
 ## Continue reading
 
 - Compare regular and one-time investing in [SIP vs Lump Sum](/blog/sip-vs-lump-sum/).

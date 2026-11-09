@@ -91,6 +91,16 @@ If your goal is calculated to the last rupee you’ll have no buffer for returns
 
 The most useful thing a calculator can do is show you how fragile your goal is. If your goal looks unachievable with a small change in your assumptions this is useful to know early on.
 
+## Turn the calculator result into a plan you can maintain
+
+A reverse SIP calculation is a starting estimate. Before setting up a debit, compare the suggested monthly amount with your actual surplus after essential spending, debt payments and planned annual bills. If the amount is too high, do not simply reduce your emergency savings or skip insurance to make the calculation work. Change one of the assumptions instead: extend the time horizon, reduce the goal, add an initial lump sum if you genuinely have one, or plan to increase contributions as income grows.
+
+It is useful to run at least three scenarios. A conservative case can use a lower assumed return, the base case can use your central planning assumption, and an optimistic case can show what happens if markets perform better. These are not predictions or probability ranges. They simply show how sensitive the monthly contribution is to the inputs. Never present the optimistic case as the amount someone should rely on.
+
+## Include inflation and the date of the goal
+
+## Revisit the plan when real life changes
+
 ## Continue reading
 
 - Learn the basics in [What Is a SIP?](/blog/what-is-a-sip/).

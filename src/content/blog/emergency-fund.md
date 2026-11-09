@@ -21,7 +21,7 @@ Depending on your situation, the amount you should save will be different. If yo
 
 Start by thinking about what essential costs you have. This could include rent/mortgage, basic food items, utility bills, transport to/from work, medication, insurance, school costs and the minimum loan payments. From here you can think about what you can reduce during a tough time. This doesn’t need to be an exact budget, just an estimate of what you’ll still need to pay even if your income drops suddenly.
 
-Let’s say your essential costs are £35,000 per month. This means you’d need £105,000 for 3 months and £210,000 for 6 months. This is purely an example of how to calculate. Depending on whether your income is unstable, you have 1 main earner and dependents relying on your income or you might struggle to find a new job, you may want to save more. However, everyone’s situation will be different.
+Let’s say your essential costs are ₹35,000 per month. This means you’d need ₹105,000 for 3 months and ₹210,000 for 6 months. This is purely an example of how to calculate. Depending on whether your income is unstable, you have 1 main earner and dependents relying on your income or you might struggle to find a new job, you may want to save more. However, everyone’s situation will be different.
 
 ## Dependents, EMIs and job stability
 
@@ -84,6 +84,20 @@ If you’re a cash user, keep it simple and just track how much you’ve taken o
 Having a new child, parent moving in, mortgage, changing from a salaried worker to self employed or having a long search for a job can change your risk. Instead of using your target from years ago, recalculate your essential costs. If your costs have decreased, for example you’ve paid off a loan or your dependents have become financially independent, you may want to reassess your fund. Don’t feel obliged to keep the number the same just because it felt like enough.
 
 The aim is to have some resilience. Your target should be based on your real risk factors and be accessible.
+
+## Decide what counts as an emergency in your household
+
+An emergency fund is for an expense or loss of income that you did not plan for and cannot comfortably cover from normal monthly cash flow. A medical bill, urgent home repair, essential travel for a family crisis or a period without salary may qualify. A festival purchase, planned holiday or annual insurance premium should normally have its own sinking fund. Keeping planned expenses separate prevents the emergency balance from being used up by predictable bills.
+
+Make a list of the costs that would continue if your income stopped tomorrow. Rent or home-loan payments, groceries, utilities, medicines, school fees, transport needed for work and minimum debt payments may remain. Some discretionary expenses could be reduced, but do not assume that every household cost can be cut immediately. Multiply the realistic essential monthly total by the number of months you want to cover. The familiar three-to-six-month range is a starting point, not a rule for every family.
+
+## Where accessibility matters more than a headline return
+
+The first purpose of this money is availability. A savings account or sweep facility may be convenient, while a suitable short-term deposit may offer a different balance of access and interest. Check premature-withdrawal rules, penalties, minimum balances and how quickly funds can reach your spending account. Deposit protection has limits and conditions; understand which bank holds the deposit and how the applicable protection works. Do not put the entire reserve into equity funds, shares, long-duration products or anything whose value may fall just when you need cash.
+
+## What to do after using the fund
+
+Review the amount when rent, EMIs, dependants or income change. A reserve that was adequate when you lived alone may be too small after taking on family responsibilities. Keep it separate from daily spending and make sure another household member knows how to access the funds in a genuine emergency, without sharing passwords or PINs.
 
 ## Continue reading
 

@@ -132,6 +132,12 @@ First look at the tax regimes available and make sure you’re eligible. Don’t
 
 Try to review your cashflow each month and have a more detailed review each year. If you’ve had a career change, new dependents, loan or income change, review.
 
+## Make the review useful, not overwhelming
+
+A financial review works best when it ends with a few decisions rather than a folder full of screenshots. Open your bank and card statements, but do not try to categorise every small purchase perfectly. Look for patterns that change what you can do next month. Perhaps food delivery has crept up, an annual subscription is still being charged, or a loan payment is due just before payday. Those are more useful observations than judging yourself for buying coffee.
+
+Keep one secure record of where important documents are stored. This can include policy schedules, loan statements, nomination acknowledgements and tax documents. Do not put passwords, PINs or full account credentials in an ordinary spreadsheet. Tell a trusted family member where essential documents can be found and how to contact the relevant institution if something happens to you.
+
 ## Final Thoughts
 
 A Financial Reset isn’t about becoming a millionaire overnight or ticking off someone else’s checklist. It’s about knowing what you have coming in, going out, what you owe, what is protecting your household and what your savings are for.
@@ -139,3 +145,4 @@ A Financial Reset isn’t about becoming a millionaire overnight or ticking off 
 Focus on fixing the most important gaps. Keep your records organised. If your life changes, review your decisions. Making small regular improvements can make your finances easier to manage throughout 2027.
 
 **Note:** This article is for general information purposes only. It does not constitute personalised financial, investment, tax, insurance or legal advice. Investment products carry risks and conditions. Rules and taxes can change so always make sure you’re aware of the current details. Always consult official sources & product documentation. You may wish to seek advice from an appropriately qualified professional.
+

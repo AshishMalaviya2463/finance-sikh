@@ -85,6 +85,24 @@ Depending on your insurer and regulations you may be asked to provide ID, proof 
 
 If there is a ratio at insurer level in the publication ensure you can locate the table. You should be able to replicate the definition. Policies or amounts? What is the time frame? Does it include all individual life? If you don’t have this information explain that you can’t fairly compare. Don’t rank the insurers based on one stat.
 
+## Work out the protection need before looking at premium quotes
+
+A useful starting point is to list the financial responsibilities that would remain if the earning member died: outstanding home or other debt, regular household costs, children's education, support for parents and any goal that depends on future income. Then consider assets and existing cover that could reasonably support those needs. This is not a precise formula. It is a way to avoid choosing a cover amount only because it is the first option shown by an online form.
+
+Think about how long the family may need support. A loan with fifteen years remaining creates a different liability from school fees that end in three years. A young child may need support for a long period, while a dependent parent may have a different requirement. Review the calculation when income, debt or dependants change. Do not assume that a policy bought once will remain sufficient for every stage of life.
+
+## Complete the proposal form carefully
+
+Insurers use the information in the proposal form for underwriting. Disclose medical history, tobacco or nicotine use, occupation, hazardous activities, existing policies and other questions accurately. If you are unsure how to answer, ask the insurer for clarification and retain the written response. Do not allow an intermediary to omit a condition or change an answer to obtain a lower premium. An incorrect disclosure can create serious difficulty at claim time.
+
+Read the benefit illustration and policy wording, not only the sales summary. Check when cover starts, premium payment term, policy term, exclusions, grace period, revival rules and what happens if a premium is missed. If there are optional riders, understand the additional premium and the exact event covered. A rider should not be added simply because it appears in a bundle; compare its wording with the protection already available elsewhere.
+
+## Make the policy usable for the family
+
+Tell the nominee that the policy exists, where the schedule is stored and how to contact the insurer. A nomination is important, but the legal position and claim process can depend on the policy and applicable law. Keep nominee details current after marriage, childbirth or another family change. Store premium receipts and the insurer's service contact in a place the family can find without needing your phone password.
+
+If a claim occurs, the family should notify the insurer promptly and follow the stated process. Keep the policy number, death certificate and other documents requested by the insurer. Do not rely on a marketing claim ratio alone to judge whether a particular policy will pay a specific claim. Claims data is usually an aggregate measure with definitions and limitations; it cannot replace reading the exclusions and disclosure requirements in your own contract.
+
 ## Continue reading
 
 - Compare policy structures in [Term Insurance vs Savings-Type Life Insurance Plans](/blog/term-vs-savings-life-insurance/).

@@ -81,6 +81,22 @@ Ask your insurer what changes can be made to your policy, can the sum assured be
 
 If comparing term and savings products ensure the level of cover, term and premium payment are as similar as possible. Ensure you know what is guaranteed. If one product shows maturity value and the other doesn’t they aren’t the same. Remember the money you pay in as premium can’t be used for anything else during the term. A fair comparison would be to understand the cashflow and terms.
 
+## Compare the cash flows, not just the maturity headline
+
+A savings-type life policy may show a projected maturity amount, while a term policy may show a large death benefit and no maturity payment if the insured survives the term. These are different product designs. To compare them fairly, write down the premium dates, policy duration, guaranteed benefits, non-guaranteed illustrations, surrender values and any tax assumptions. Do not compare a guaranteed amount from one document with an optimistic illustrated value from another.
+
+If you are considering a savings policy, ask what happens if you stop paying after two, five or ten years. The policy may become paid-up, lapse or acquire a surrender value under its terms. Each outcome can be different from the original sales illustration. Ask for the applicable values in writing and check whether any loan facility has conditions or interest. A long premium commitment should fit your income even if your circumstances change.
+
+## Separate protection from a savings goal
+
+Ask what financial problem you are trying to solve. If the household would struggle to repay a loan or meet expenses after the main earner's death, the first question is whether there is adequate life cover. If the objective is to save for a known future expense, compare the policy's liquidity, risk, costs and time horizon with other ways of saving. One product may not be the best tool for both jobs.
+
+A term policy generally provides a defined death benefit for a specified period, subject to the contract. A savings-linked life policy combines insurance with a savings or investment structure. That combination can be useful for some people, but it can also make the product harder to compare. Understand how much of the premium relates to protection, what values are guaranteed and what depends on assumptions or bonuses.
+
+## Questions to ask before signing
+
+Request the full policy wording and benefit illustration. Ask whether the premium is fixed, how long it must be paid, what happens on missed payments, what exclusions apply and what the surrender value would be at different points. Check whether the death benefit is a lump sum, income stream or a combination. Confirm how the nominee is recorded and how a claim is made. Take time to read the documents away from the sales conversation.
+
 ## Continue reading
 
 - Understand cover, exclusions and disclosures in [Term Insurance Explained](/blog/term-insurance-explained/).

@@ -5,7 +5,7 @@ pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [health insurance waiting period, room rent limit, co-payment]
 sources:
-  - name: "IRDAI"
+  - name: "IRDAI Master Circular on Health Insurance Business, 29 May 2024 (circular reference)"
     url: "https://irdai.gov.in/"
 ---
 
@@ -27,13 +27,13 @@ These can affect decisions, but shouldn’t be used as an excuse to not receive 
 
 Pre-existing disease refers to conditions set out in the policy and regulations. Please ensure you know what conditions are included, how long the look back period is and how long the wait period is. This will be set out within the policy. When applying please be honest with your medical history. If you have a condition that is managed by medication it can still be relevant to the application. Don’t assume it’s not relevant just because you don’t think it is.
 
-[Please verify current IRDAI wording on pre-existing and specific disease maximum wait periods within the health insurance regulations.] If there are any changes to the rules please update this article with the official notification and the date it comes in to effect.
+Under IRDAI’s 2024 health-insurance framework, the waiting period for a pre-existing disease and the waiting period for specified diseases or procedures cannot exceed 36 months of continuous coverage, subject to the policy terms and applicable continuity credits. The policy may set a shorter waiting period. The waiting period, the definition of a pre-existing disease and the list of specified diseases must be stated in the policy documents. When you port or migrate a policy, eligible waiting-period credits are carried forward under the applicable rules; ask the insurer to confirm the credited period in writing. Refer to IRDAI (Insurance Products) Regulations, 2024 and the Master Circular on Health Insurance Business, Ref. IRDAI/HLT/CIR/PRO/84/5/2024 dated 29 May 2024. Check IRDAI’s website for any later amendment before relying on a specific policy rule.
 
 ## Co-payment
 
 Co-payment means that you will pay a specific percentage or proportion of the claimable costs. A deductible may be included in the policy that will mean you have to pay a set amount before the policy will pay. The co-payment can be a percentage of the whole claimable costs or may only apply to certain situations. Please refer to the exact wording within the policy.
 
-For example, if you had a hospital bill with £80,000 of claimable costs and the policy had a 10% co-payment this would equate to £8,000. You would then have £72,000 of claimable costs. This is not an accurate calculation as there may be some items that aren’t claimable or have a limit. This is just an example.
+For example, if you had a hospital bill with ₹80,000 of claimable costs and the policy had a 10% co-payment this would equate to ₹8,000. You would then have ₹72,000 of claimable costs. This is not an accurate calculation as there may be some items that aren’t claimable or have a limit. This is just an example.
 
 ## Room Rent Limit
 
@@ -49,9 +49,9 @@ Check what specific procedures, ambulance, consumables, non-medical items and ou
 
 ## Example
 
-Say you have a hospital bill of £150,000 (this is purely an example). £20,000 of the items are excluded. You now have £130,000 to consider. There may be a sub-limit on a specific procedure. There may also be a room rent clause. There may then be a 10% co-payment applied to the remaining claimable amount. The insurer will have calculated this based on the policy wording. You will not be able to replicate what they have done as each clause will need applying in the order set out in the policy.
+Say you have a hospital bill of ₹1,50,000 (this is purely an example). ₹20,000 of the items are excluded. You now have ₹1,30,000 to consider. There may be a sub-limit on a specific procedure. There may also be a room rent clause. There may then be a 10% co-payment applied to the remaining claimable amount. The insurer will have calculated this based on the policy wording. You will not be able to replicate what they have done as each clause will need applying in the order set out in the policy.
 
-This example shows that just because a policy states they will cover £5lakh it does not mean they will pay the full £1.5lakh. The sum insured is just part of the policy. To calculate a real claim you would need to look at the policy schedule, wording, hospital invoices and what the insurer has decided.
+This example shows that just because a policy states they will cover ₹5 lakh it does not mean they will pay the full ₹1.5 lakh. The sum insured is just part of the policy. To calculate a real claim you would need to look at the policy schedule, wording, hospital invoices and what the insurer has decided.
 
 ## How to compare the terms
 
@@ -83,7 +83,23 @@ Ask the insurer what the start date is, when each waiting period ends and whethe
 
 When comparing two contracts please write down the details. Don’t just assume a policy has a short waiting period or no room limit. Check what exclusions, co-payments and any other limitations there are. The current regulations and wording will determine what the situation really is. Please check the wording again if the policy is renewed or changed.
 
+## Read exclusions alongside the waiting-period table
+
+A waiting period is only one reason a claim may be restricted. The policy may also exclude a treatment, apply a deductible, impose a disease-wise sub-limit or require a particular process before admission. Read the exclusions section as well as the schedule. If a term is unclear, ask the insurer to explain it with a practical example and keep the response. A verbal assurance from a sales call may not resolve a difference between what you expected and what the contract says.
+
+The 36-month maximum for pre-existing disease and specified disease or procedure waiting periods comes from the applicable IRDAI framework, subject to policy wording and continuity rules. It does not mean every policy has a 36-month wait, nor does it mean every condition is automatically covered after that date. The policy may have shorter periods, permanent exclusions permitted by the framework, or other conditions that still apply. Check the wording for the specific condition and treatment.
+
+## Understand how room limits can affect the final bill
+
+Suppose a policy restricts room eligibility to a category below the room chosen by the patient. Depending on the wording, the insurer may apply a proportionate deduction to linked charges, not only the difference in room rent. The calculation can vary by policy and hospital billing structure. A sub-limit may also cap the amount payable for a particular treatment even when the overall sum insured is higher. Do not assume that the remaining sum insured will cover every charge.
+
+## Keep evidence and escalate carefully
+
 ## Continue reading
 
 - Use this checklist alongside [Health Insurance for Parents Above 60](/blog/health-insurance-parents/).
 - Keep room for policy costs in [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
+
+---
+
+**Regulatory and tax information checked:** 9 November 2026. Rules can change; check the linked official source and your own policy/account documents before acting.
