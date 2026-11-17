@@ -1,29 +1,13 @@
 ---
-import { getCollection, render } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  return (await getCollection('blog')).map(post => ({
-    params: { slug: post.id.replace(/\.md$/, '') },
-    props: { post }
-  }));
+  const posts = await getCollection('blog');
+  return posts
+    .filter(post => (post.data.language || 'en') === 'en')
+    .map(post => ({
+      params: { slug: post.id.replace(/\.md$/, '') }
+    }));
 }
-
-const { post } = Astro.props;
-const { Content } = await render(post);
 ---
-<BaseLayout title={post.data.title} description={post.data.description} type="article" publishedTime={post.data.pubDate.toISOString()} modifiedTime={post.data.updatedDate?.toISOString()} author={post.data.authorName}>
-  <article class="wrap prose py-12">
-    <p class="text-sm text-slate-600">By {post.data.authorName} &middot; First published {post.data.pubDate.toLocaleDateString('en-IN')}{post.data.updatedDate && ` &middot; Updated ${post.data.updatedDate.toLocaleDateString('en-IN')}`}</p>
-    <h1 class="text-4xl font-bold">{post.data.title}</h1>
-    <p class="text-xl">{post.data.description}</p>
-    <Content />
-    <section>
-      <h2>Sources</h2>
-      <ul>
-        {post.data.sources.map(source => <li><a href={source.url} rel="nofollow noopener" target="_blank">{source.name}</a></li>)}
-      </ul>
-    </section>
-    <p class="rounded-lg bg-slate-100 p-4 text-sm">Educational information only. Verify current rules and consider qualified advice for personal decisions.</p>
-  </article>
-</BaseLayout>
+<!doctype html><html lang="en-IN"><head><meta charset="utf-8" /><meta http-equiv="refresh" content={`0; url=/en/blog/${Astro.params.slug}/`} /><title>Redirecting...</title></head><body><a href={`/en/blog/${Astro.params.slug}/`}>Continue</a><script>{`window.location.replace('/en/blog/${Astro.params.slug}/');`}</script></body></html>

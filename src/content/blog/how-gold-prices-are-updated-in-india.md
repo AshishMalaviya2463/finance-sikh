@@ -4,6 +4,7 @@ description: "Understand how gold prices change in India, what influences the da
 pubDate: 2026-11-15
 authorName: "Finance Sikh"
 relatedKeywords: ["gold prices India", "IBJA", "MCX", "gold rate", "22K gold", "24K gold", "gold hallmarking", "jewellery rates"]
+translationKey: "how-gold-prices-are-updated-in-india"
 sources:
   - name: "IBJA - Spot Price Polling Mechanism"
     url: "https://ibjarates.com/pdf/spot-polling-mechanism/spot-polling-mechanism.pdf"

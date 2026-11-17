@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts
+    .filter(post => (post.data.language || 'en') === 'en')
+    .map(post => ({
+      params: { slug: (post.data.translationKey || post.id.replace(/\.md$/, '')) },
+      props: { post }
+    }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const allPosts = await getCollection('blog');
+const counterpart = allPosts.find(p => p.data.translationKey && p.data.translationKey === post.data.translationKey && p.data.language === 'hi');
+const enUrl = `/en/blog/${post.data.translationKey || post.id.replace(/\.md$/, '')}/`;
+const hiUrl = counterpart ? `/hi/blog/${counterpart.data.translationKey || counterpart.id.replace(/\.md$/, '').replace(/-hi$/, '')}/` : null;
+const alternates = [{ hreflang: 'en', href: new URL(enUrl, Astro.site).toString() }];
+if (hiUrl) alternates.push({ hreflang: 'hi', href: new URL(hiUrl, Astro.site).toString() });
+if (hiUrl) alternates.push({ hreflang: 'x-default', href: new URL(hiUrl, Astro.site).toString() });
+---
+<BaseLayout title={post.data.title} description={post.data.description} lang="en" alternates={alternates} locale="en_IN" type="article" publishedTime={post.data.pubDate.toISOString()} modifiedTime={post.data.updatedDate?.toISOString()} author={post.data.authorName}>
+  <nav class="wrap pt-6" aria-label="Choose article language">
+    <div class="inline-flex rounded-lg border border-[var(--color-line)] bg-white p-1">
+      {hiUrl ? (
+        <a href={hiUrl} class="rounded-md px-3 py-1.5 text-sm font-semibold text-[var(--color-ink)] no-underline hover:bg-[var(--color-mist)]">हिन्दी</a>
+      ) : (
+        <span class="rounded-md px-3 py-1.5 text-sm font-semibold text-slate-400" aria-disabled="true">हिन्दी</span>
+      )}
+      <a href={enUrl} aria-current="page" class="rounded-md bg-teal px-3 py-1.5 text-sm font-semibold text-white no-underline">English</a>
+    </div>
+  </nav>
+  <article class="wrap prose py-12">
+    <p class="text-sm text-slate-600">By {post.data.authorName} &middot; First published {post.data.pubDate.toLocaleDateString('en-IN')}{post.data.updatedDate && ` &middot; Updated ${post.data.updatedDate.toLocaleDateString('en-IN')}`}</p>
+    <h1 class="text-4xl font-bold">{post.data.title}</h1>
+    <p class="text-xl">{post.data.description}</p>
+    <Content />
+    <section>
+      <h2>Sources</h2>
+      <ul>
+        {post.data.sources.map(source => <li><a href={source.url} rel="nofollow noopener" target="_blank">{source.name}</a></li>)}
+      </ul>
+    </section>
+    <p class="rounded-lg bg-slate-100 p-4 text-sm">Educational information only. Verify current rules and consider qualified advice for personal decisions.</p>
+  </article>
+</BaseLayout>

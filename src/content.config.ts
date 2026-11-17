@@ -7,6 +7,8 @@ const blog = defineCollection({
     updatedDate: z.coerce.date().optional(), authorName: z.string().min(1),
     relatedKeywords: z.array(z.string()).min(1),
     sources: z.array(z.object({ name: z.string(), url: z.string().url() })).min(1),
+    language: z.enum(['en', 'hi']).default('en'),
+    translationKey: z.string().optional(),
   }),
 });
 const pages = defineCollection({ type: 'content', schema: z.object({ title: z.string(), description: z.string() }) });

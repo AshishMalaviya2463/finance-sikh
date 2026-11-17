@@ -76,6 +76,17 @@
           },
           "minItems": 1
         },
+        "language": {
+          "type": "string",
+          "enum": [
+            "en",
+            "hi"
+          ],
+          "default": "en"
+        },
+        "translationKey": {
+          "type": "string"
+        },
         "$schema": {
           "type": "string"
         }
