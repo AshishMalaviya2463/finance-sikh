@@ -4,6 +4,7 @@ description: "Understand SIP and lump-sum mutual-fund investing in India through
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [SIP, lump sum, timing risk]
+translationKey: "sip-vs-lump-sum"
 sources:
   - name: "SEBI"
     url: "https://investor.sebi.gov.in/"

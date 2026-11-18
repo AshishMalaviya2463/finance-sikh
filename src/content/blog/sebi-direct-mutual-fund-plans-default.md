@@ -4,6 +4,7 @@ description: "From 1st November 2026, Direct Mutual Fund plans are the default o
 pubDate: 2026-11-04
 authorName: "Ashish Malaviya"
 relatedKeywords: ["SEBI direct plans", "mutual funds india", "direct vs regular mutual funds", "expense ratio", "AMCs"]
+translationKey: "sebi-direct-mutual-fund-plans-default"
 sources:
   - name: "Moneycontrol"
     url: "https://www.moneycontrol.com/"

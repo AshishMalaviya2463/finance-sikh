@@ -4,6 +4,7 @@ description: "Understand India’s PPF account structure, deposits, tenure, exte
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [PPF, public provident fund, PPF withdrawal]
+translationKey: "ppf-explained"
 sources:
   - name: "India Post"
     url: "https://www.indiapost.gov.in/banking-services/savings"

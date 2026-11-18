@@ -4,6 +4,7 @@ description: "Compare ELSS, PPF and NPS by structure, access, risk and tax treat
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [ELSS, PPF, NPS]
+translationKey: "elss-ppf-nps-compared"
 sources:
   - name: "SEBI"
     url: "https://investor.sebi.gov.in/"

@@ -4,6 +4,7 @@ description: "Prepare your finances for 2027 with seven practical checks coverin
 pubDate: 2026-11-06
 authorName: "Ashish Malaviya"
 relatedKeywords: ["financial planning India", "budgeting 2027", "emergency fund", "insurance review", "debt management", "tax planning", "personal finance"]
+translationKey: "2027-financial-reset"
 sources:
   - name: "Reserve Bank of India"
     url: "https://www.rbi.org.in/"

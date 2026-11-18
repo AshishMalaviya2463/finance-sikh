@@ -4,6 +4,7 @@ description: "Learn how to improve your CIBIL score with practical steps: pay EM
 pubDate: 2026-11-07
 authorName: "Finance Sikh"
 relatedKeywords: ["CIBIL score", "credit score India", "improve credit score", "credit report", "EMI payments", "credit utilisation"]
+translationKey: "how-to-improve-cibil-score"
 sources:
   - name: "CIBIL - Free CIBIL Score and Report"
     url: "https://www.cibil.com/freecibilscore"

@@ -4,6 +4,7 @@ description: "Learn how sum assured, underwriting, disclosures, riders, exclusio
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [term insurance, sum assured, claim settlement ratio]
+translationKey: "term-insurance-explained"
 sources:
   - name: "IRDAI"
     url: "https://irdai.gov.in/"

@@ -4,6 +4,7 @@ description: "Understand home-loan principal, interest, amortisation, fixed and 
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [home loan EMI, loan prepayment, amortisation]
+translationKey: "emi-vs-prepayment"
 sources:
   - name: "RBI"
     url: "https://www.rbi.org.in/"

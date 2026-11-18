@@ -4,6 +4,7 @@ description: "Understand health-policy waiting periods, co-payments, room-rent l
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [health insurance waiting period, room rent limit, co-payment]
+translationKey: "waiting-periods-sublimits"
 sources:
   - name: "IRDAI Master Circular on Health Insurance Business, 29 May 2024 (circular reference)"
     url: "https://irdai.gov.in/"

@@ -4,6 +4,7 @@ description: "Learn how essential expenses, dependants, job stability, EMIs and 
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [emergency fund, essential expenses, liquidity]
+translationKey: "emergency-fund"
 sources:
   - name: "RBI"
     url: "https://www.rbi.org.in/"

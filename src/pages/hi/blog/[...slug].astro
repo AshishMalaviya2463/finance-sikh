@@ -4,15 +4,22 @@ import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
-  return posts
-    .filter(post => post.data.language === 'hi')
-    .map(post => ({
-      params: { slug: (post.data.translationKey || post.id.replace(/\.md$/, '').replace(/-hi$/, '')) },
-      props: { post }
-    }));
+  const paths = [];
+  for (const post of posts.filter(p => p.data.language === 'hi')) {
+    const canonical = post.data.translationKey || post.id.replace(/\.md$/, '').replace(/-hi$/, '');
+    const original = post.id.replace(/\.md$/, '');
+    paths.push({ params: { slug: canonical }, props: { post, redirect: false } });
+    if (original !== canonical) {
+      paths.push({ params: { slug: original }, props: { post, redirect: true, target: canonical } });
+    }
+  }
+  return paths;
 }
 
-const { post } = Astro.props;
+const { post, redirect, target } = Astro.props;
+if (redirect) {
+  return Astro.redirect(`/hi/blog/${target}/`, 301);
+}
 const { Content } = await render(post);
 const allPosts = await getCollection('blog');
 const counterpart = allPosts.find(p => p.data.translationKey && p.data.translationKey === post.data.translationKey && p.data.language === 'en');
@@ -22,7 +29,7 @@ const alternates = [{ hreflang: 'hi', href: new URL(hiUrl, Astro.site).toString(
 if (enUrl) alternates.push({ hreflang: 'en', href: new URL(enUrl, Astro.site).toString() });
 if (enUrl) alternates.push({ hreflang: 'x-default', href: new URL(hiUrl, Astro.site).toString() });
 ---
-<BaseLayout title={post.data.title} description={post.data.description} lang="hi" alternates={alternates} locale="hi_IN">
+<BaseLayout title={post.data.title} description={post.data.description} lang="hi" alternates={alternates} locale="hi_IN" type="article" publishedTime={post.data.pubDate.toISOString()} modifiedTime={post.data.updatedDate?.toISOString()} author={post.data.authorName}>
   <nav class="wrap pt-6" aria-label="Choose article language">
     <div class="inline-flex rounded-lg border border-[var(--color-line)] bg-white p-1">
       <a href={hiUrl} aria-current="page" class="rounded-md bg-teal px-3 py-1.5 text-sm font-semibold text-white no-underline">हिन्दी</a>

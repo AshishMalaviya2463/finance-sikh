@@ -33,7 +33,7 @@ if (hiUrl) alternates.push({ hreflang: 'x-default', href: new URL(hiUrl, Astro.s
       <a href={enUrl} aria-current="page" class="rounded-md bg-teal px-3 py-1.5 text-sm font-semibold text-white no-underline">English</a>
     </div>
   </nav>
-  <article class="wrap prose py-12">
+  <article class="wrap prose py-6">
     <p class="text-sm text-slate-600">By {post.data.authorName} &middot; First published {post.data.pubDate.toLocaleDateString('en-IN')}{post.data.updatedDate && ` &middot; Updated ${post.data.updatedDate.toLocaleDateString('en-IN')}`}</p>
     <h1 class="text-4xl font-bold">{post.data.title}</h1>
     <p class="text-xl">{post.data.description}</p>

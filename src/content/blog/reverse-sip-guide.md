@@ -4,6 +4,7 @@ description: "A guide to reverse SIP calculations, future-value assumptions, tim
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [reverse SIP, future value, monthly investment]
+translationKey: "reverse-sip-guide"
 sources:
   - name: "SEBI"
     url: "https://investor.sebi.gov.in/"

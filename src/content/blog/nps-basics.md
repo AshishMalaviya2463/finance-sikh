@@ -4,6 +4,7 @@ description: "An introduction to India’s National Pension System, including Ti
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [NPS, Tier I, pension planning]
+translationKey: "nps-basics"
 sources:
   - name: "Income-tax Act, 2025, sections 123 and 124"
     url: "https://www.incometaxindia.gov.in/Documents/Act/Income-tax-Act-2025.pdf"

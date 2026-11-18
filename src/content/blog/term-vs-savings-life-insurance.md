@@ -4,6 +4,7 @@ description: "Compare term protection and savings-oriented life insurance, inclu
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [term insurance, life insurance, policy benefits]
+translationKey: "term-vs-savings-life-insurance"
 sources:
   - name: "IRDAI"
     url: "https://irdai.gov.in/"

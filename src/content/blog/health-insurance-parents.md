@@ -4,6 +4,7 @@ description: "Review waiting periods, co-payments, room limits, pre-existing con
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [senior health insurance, co-payment, waiting period]
+translationKey: "health-insurance-parents"
 sources:
   - name: "IRDAI Master Circular on Health Insurance Business, 29 May 2024 (circular reference)"
     url: "https://irdai.gov.in/"

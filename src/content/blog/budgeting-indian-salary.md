@@ -4,6 +4,7 @@ description: "Adapt the 50/30/20 budgeting idea to Indian households, including 
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [salary budget, 50/30/20 rule, monthly expenses]
+translationKey: "budgeting-indian-salary"
 sources:
   - name: "RBI"
     url: "https://www.rbi.org.in/"

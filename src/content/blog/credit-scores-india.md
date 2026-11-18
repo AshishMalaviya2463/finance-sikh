@@ -4,6 +4,7 @@ description: "Learn how Indian credit reports work, what affects scores, and how
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [credit score, credit report, credit utilisation]
+translationKey: "credit-scores-india"
 sources:
   - name: "RBI"
     url: "https://www.rbi.org.in/"

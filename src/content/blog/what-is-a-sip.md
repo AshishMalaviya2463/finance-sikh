@@ -4,6 +4,7 @@ description: "Learn how SIPs work in India, including mutual-fund units, NAV, in
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [SIP, mutual fund units, NAV]
+translationKey: "what-is-a-sip"
 sources:
   - name: "SEBI"
     url: "https://investor.sebi.gov.in/"

@@ -4,6 +4,7 @@ description: "Compare India’s old and new tax regimes by tax year, taxable inc
 pubDate: 2026-11-02
 authorName: "Ashish Malaviya"
 relatedKeywords: [old tax regime, new tax regime, tax comparison]
+translationKey: "old-vs-new-tax-regime"
 sources:
   - name: "Income-tax Act, 2025 and Finance Act 2026 official tax-year guidance"
     url: "https://www.incometaxindia.gov.in/documents/81799/11848482/memo-2026.pdf/fe530cfa-9c49-fc5c-4bfa-fc96fd5e7b7a?t=1770008674037"
