@@ -106,8 +106,8 @@ Think about the expenses the retirement corpus may need to support. Housing, hea
 
 ## Continue reading
 
-- Compare retirement-linked options in [ELSS, PPF, and NPS Compared](/blog/elss-ppf-nps-compared/).
-- Review how tax comparisons work in [Old vs New Tax Regime](/blog/old-vs-new-tax-regime/).
+- Compare retirement-linked options in [ELSS, PPF, and NPS Compared](/en/blog/elss-ppf-nps-compared/).
+- Review how tax comparisons work in [Old vs New Tax Regime](/en/blog/old-vs-new-tax-regime/).
 
 ---
 

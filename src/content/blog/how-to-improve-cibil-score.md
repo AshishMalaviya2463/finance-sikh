@@ -156,8 +156,8 @@ Avoid any guaranteed improvements and don’t take on unnecessary debt. Allow ti
 
 ### Related Reads
 
-- [How Credit Scores Work In India](/blog/credit-scores-india/)
-- [Build An Emergency Fund](/blog/emergency-fund/)
-- [EMI Vs Prepayment](/blog/emi-vs-prepayment/)
+- [How Credit Scores Work In India](/en/blog/credit-scores-india/)
+- [Build An Emergency Fund](/en/blog/emergency-fund/)
+- [EMI Vs Prepayment](/en/blog/emi-vs-prepayment/)
 
 *Disclaimer: This article is for general information only. It shouldn’t be taken as financial, legal or credit advice. Calculations for credit scores and lender eligibility can vary. Check Your latest report and ensure you check with the relevant lender/credit bureau for account specific details.*

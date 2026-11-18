@@ -103,8 +103,8 @@ Keep any evidence to support your eligible deductions and exemptions. Depending 
 
 ## Continue reading
 
-- Compare tax-linked features in [ELSS, PPF, and NPS Compared](/blog/elss-ppf-nps-compared/).
-- Build a household spending view with [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
+- Compare tax-linked features in [ELSS, PPF, and NPS Compared](/en/blog/elss-ppf-nps-compared/).
+- Build a household spending view with [Budgeting on an Indian Salary](/en/blog/budgeting-indian-salary/).
 
 ---
 

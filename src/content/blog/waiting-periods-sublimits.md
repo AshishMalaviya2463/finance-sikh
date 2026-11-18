@@ -98,8 +98,8 @@ Suppose a policy restricts room eligibility to a category below the room chosen 
 
 ## Continue reading
 
-- Use this checklist alongside [Health Insurance for Parents Above 60](/blog/health-insurance-parents/).
-- Keep room for policy costs in [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
+- Use this checklist alongside [Health Insurance for Parents Above 60](/en/blog/health-insurance-parents/).
+- Keep room for policy costs in [Budgeting on an Indian Salary](/en/blog/budgeting-indian-salary/).
 
 ---
 

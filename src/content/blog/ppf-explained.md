@@ -98,8 +98,8 @@ PPF is a long-term account, so the contribution plan should be sustainable. You 
 
 ## Continue reading
 
-- Compare structures in [ELSS, PPF, and NPS Compared](/blog/elss-ppf-nps-compared/).
-- Build accessible savings first with [Emergency Fund: How Much to Keep](/blog/emergency-fund/).
+- Compare structures in [ELSS, PPF, and NPS Compared](/en/blog/elss-ppf-nps-compared/).
+- Build accessible savings first with [Emergency Fund: How Much to Keep](/en/blog/emergency-fund/).
 
 ---
 

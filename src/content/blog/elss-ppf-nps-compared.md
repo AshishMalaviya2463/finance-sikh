@@ -110,8 +110,8 @@ Keep a small log of updates. This includes what has been checked, the official d
 
 ## Continue reading
 
-- Read the account details in [PPF Explained](/blog/ppf-explained/) and [NPS Basics](/blog/nps-basics/).
-- Check applicable tax rules with [Old vs New Tax Regime](/blog/old-vs-new-tax-regime/).
+- Read the account details in [PPF Explained](/en/blog/ppf-explained/) and [NPS Basics](/en/blog/nps-basics/).
+- Check applicable tax rules with [Old vs New Tax Regime](/en/blog/old-vs-new-tax-regime/).
 
 ---
 

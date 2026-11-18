@@ -42,7 +42,7 @@ It’s important to make sure you can easily access your money. Before deciding 
 
 If you don’t have any savings, start with a small target and set up a manageable automatic payment after your payday. If you do use your emergency fund, think about how much you should be aiming to save and create a realistic plan.
 
-Read our guide here on [Emergency Fund – How much to save?](/blog/emergency-fund/)
+Read our guide here on [Emergency Fund – How much to save?](/en/blog/emergency-fund/)
 
 ## 3. Health & Life Insurance
 

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-const posts = (await getCollection('blog')).sort((a,b) => b.data.pubDate.valueOf()-a.data.pubDate.valueOf());
+const posts = (await getCollection('blog')).filter(p => (p.data.language || 'en') === 'en').sort((a,b) => b.data.pubDate.valueOf()-a.data.pubDate.valueOf());
 ---
 <BaseLayout title="Indian personal-finance education for everyday households" description="Plain-language Indian personal-finance education, calculators, and guides for budgeting, saving, investing, insurance, and taxes.">
   <section class="wrap py-16">
@@ -9,7 +9,7 @@ const posts = (await getCollection('blog')).sort((a,b) => b.data.pubDate.valueOf
     <h1 class="mt-3 max-w-3xl text-4xl font-bold md:text-6xl">Indian personal-finance education for everyday households</h1>
     <p class="mt-6 max-w-2xl text-lg leading-8">Finance Sikh helps first-time investors, salaried employees and families understand everyday money topics, products, calculations and trade-offs &mdash; without personalised recommendations.</p>
     <div class="mt-7 flex gap-3">
-      <a class="button" href="/blog/">Read the blog</a>
+      <a class="button" href="/en/blog/">Read the blog</a>
       <a class="button bg-ink" href="/calculators/">Try calculators</a>
     </div>
   </section>
@@ -28,7 +28,7 @@ const posts = (await getCollection('blog')).sort((a,b) => b.data.pubDate.valueOf
   <section class="wrap py-10">
     <h2 class="text-3xl font-bold">Latest articles</h2>
     <div class="mt-6 grid gap-4 md:grid-cols-3">
-      {posts.slice(0,6).map(post => <article class="card"><h3 class="font-bold"><a href={`/blog/${post.id.replace(/\.md$/, '')}/`}>{post.data.title}</a></h3><p class="text-sm text-slate-600">{post.data.description}</p></article>)}
+      {posts.slice(0,6).map(post => <article class="card"><h3 class="font-bold"><a href={`/en/blog/${post.data.translationKey || post.id.replace(/\.md$/, '')}/`}>{post.data.title}</a></h3><p class="text-sm text-slate-600">{post.data.description}</p></article>)}
     </div>
   </section>
 </BaseLayout>

@@ -102,5 +102,5 @@ Review the amount when rent, EMIs, dependants or income change. A reserve that w
 
 ## Continue reading
 
-- Put the buffer into a wider plan with [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
-- See how loan obligations affect cash flow in [EMI vs Prepayment](/blog/emi-vs-prepayment/).
+- Put the buffer into a wider plan with [Budgeting on an Indian Salary](/en/blog/budgeting-indian-salary/).
+- See how loan obligations affect cash flow in [EMI vs Prepayment](/en/blog/emi-vs-prepayment/).

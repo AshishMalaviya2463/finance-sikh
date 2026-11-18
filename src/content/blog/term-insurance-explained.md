@@ -106,5 +106,5 @@ If a claim occurs, the family should notify the insurer promptly and follow the 
 
 ## Continue reading
 
-- Compare policy structures in [Term Insurance vs Savings-Type Life Insurance Plans](/blog/term-vs-savings-life-insurance/).
-- For household planning, read [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
+- Compare policy structures in [Term Insurance vs Savings-Type Life Insurance Plans](/en/blog/term-vs-savings-life-insurance/).
+- For household planning, read [Budgeting on an Indian Salary](/en/blog/budgeting-indian-salary/).

@@ -101,5 +101,5 @@ Term policy आमतौर पर contract के अधीन एक निश
 
 ## आगे पढ़ें
 
-- [Term Insurance Explained](/blog/term-insurance-explained/) में cover, exclusions और disclosures को समझें।
-- [Health Insurance Waiting Periods and Sub-limits](/blog/waiting-periods-sublimits/) में जानें कि health policy की शर्तें किस तरह अलग होती हैं।
+- [Term Insurance Explained](/hi/blog/term-insurance-explained/) में cover, exclusions और disclosures को समझें।
+- [Health Insurance Waiting Periods and Sub-limits](/hi/blog/waiting-periods-sublimits/) में जानें कि health policy की शर्तें किस तरह अलग होती हैं।

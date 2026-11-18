@@ -94,5 +94,5 @@ Do not create a lump sum just to compare it with an SIP. Borrowing to invest int
 
 ## Continue reading
 
-- Start with [What Is a SIP?](/blog/what-is-a-sip/) if the mechanics are new to you.
+- Start with [What Is a SIP?](/en/blog/what-is-a-sip/) if the mechanics are new to you.
 - Use the [SIP calculator](/calculators/sip-calculator/) to test clearly labelled assumptions.

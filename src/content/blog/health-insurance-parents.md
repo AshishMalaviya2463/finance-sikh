@@ -102,8 +102,8 @@ Make a one-page summary for the family. Include the insurer's claims helpline, p
 
 ## Continue reading
 
-- Learn policy wording terms in [Health Insurance Waiting Periods and Sub-limits](/blog/waiting-periods-sublimits/).
-- Consider affordability alongside [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
+- Learn policy wording terms in [Health Insurance Waiting Periods and Sub-limits](/en/blog/waiting-periods-sublimits/).
+- Consider affordability alongside [Budgeting on an Indian Salary](/en/blog/budgeting-indian-salary/).
 
 ---
 

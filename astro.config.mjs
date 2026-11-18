@@ -7,5 +7,11 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'always',
   vite: { plugins: [tailwindcss()] },
-  integrations: [sitemap()],
+  integrations: [sitemap({
+    filter: (page) => {
+      if (page.includes('/blog/') && !page.includes('/en/blog/') && !page.includes('/hi/blog/')) return false;
+      if (page.includes('-hi/')) return false;
+      return true;
+    },
+  })],
 });

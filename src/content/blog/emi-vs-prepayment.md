@@ -100,8 +100,8 @@ After payment, verify that the principal has reduced and keep the receipt and re
 
 ## Continue reading
 
-- See how repayment behaviour relates to reports in [How Credit Scores Work in India](/blog/credit-scores-india/).
-- Keep liquidity in view with [Emergency Fund: How Much to Keep](/blog/emergency-fund/).
+- See how repayment behaviour relates to reports in [How Credit Scores Work in India](/en/blog/credit-scores-india/).
+- Keep liquidity in view with [Emergency Fund: How Much to Keep](/en/blog/emergency-fund/).
 
 ---
 

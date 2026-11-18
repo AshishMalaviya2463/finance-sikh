@@ -100,5 +100,5 @@ The 50/30/20 rule is a starting point, not a test you pass or fail. In a city wh
 
 ## Continue reading
 
-- Plan for unexpected costs with [Emergency Fund: How Much to Keep](/blog/emergency-fund/).
-- Understand monthly loan commitments in [EMI vs Prepayment](/blog/emi-vs-prepayment/).
+- Plan for unexpected costs with [Emergency Fund: How Much to Keep](/en/blog/emergency-fund/).
+- Understand monthly loan commitments in [EMI vs Prepayment](/en/blog/emi-vs-prepayment/).

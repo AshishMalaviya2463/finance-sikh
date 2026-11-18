@@ -96,5 +96,5 @@ Do not increase the SIP just because a fund has recently performed well. Check w
 
 ## Continue reading
 
-- Compare regular and one-time investing in [SIP vs Lump Sum](/blog/sip-vs-lump-sum/).
+- Compare regular and one-time investing in [SIP vs Lump Sum](/en/blog/sip-vs-lump-sum/).
 - Try assumptions in the [SIP calculator](/calculators/sip-calculator/).

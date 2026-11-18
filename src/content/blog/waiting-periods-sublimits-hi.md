@@ -99,8 +99,8 @@ Pre-existing disease और specified disease या procedure के waiting pe
 
 ## आगे पढ़ें
 
-- इस checklist का उपयोग [60 वर्ष से अधिक उम्र के माता-पिता के लिए Health Insurance](/blog/health-insurance-parents/) के साथ करें।
-- [भारतीय वेतन पर Budgeting](/blog/budgeting-indian-salary/) में policy costs के लिए बजट में जगह रखें।
+- इस checklist का उपयोग [60 वर्ष से अधिक उम्र के माता-पिता के लिए Health Insurance](/hi/blog/health-insurance-parents/) के साथ करें।
+- [भारतीय वेतन पर Budgeting](/hi/blog/budgeting-indian-salary/) में policy costs के लिए बजट में जगह रखें।
 
 ---
 

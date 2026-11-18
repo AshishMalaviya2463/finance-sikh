@@ -100,5 +100,5 @@ Request the full policy wording and benefit illustration. Ask whether the premiu
 
 ## Continue reading
 
-- Understand cover, exclusions and disclosures in [Term Insurance Explained](/blog/term-insurance-explained/).
-- Learn how health-policy conditions differ in [Health Insurance Waiting Periods and Sub-limits](/blog/waiting-periods-sublimits/).
+- Understand cover, exclusions and disclosures in [Term Insurance Explained](/en/blog/term-insurance-explained/).
+- Learn how health-policy conditions differ in [Health Insurance Waiting Periods and Sub-limits](/en/blog/waiting-periods-sublimits/).

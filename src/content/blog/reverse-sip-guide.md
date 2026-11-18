@@ -104,5 +104,5 @@ It is useful to run at least three scenarios. A conservative case can use a lowe
 
 ## Continue reading
 
-- Learn the basics in [What Is a SIP?](/blog/what-is-a-sip/).
+- Learn the basics in [What Is a SIP?](/en/blog/what-is-a-sip/).
 - Calculate an illustrative monthly amount with the [SIP calculator](/calculators/sip-calculator/).

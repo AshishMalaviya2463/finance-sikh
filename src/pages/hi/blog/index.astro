@@ -17,9 +17,9 @@ const posts = (await getCollection('blog')).filter(p => p.data.language === 'hi'
       {posts.map(post => (
         <article class="card flex h-full flex-col">
           <p class="text-sm text-slate-600">Published {post.data.pubDate.toLocaleDateString('hi-IN')}</p>
-          <h2 class="mt-2 text-2xl font-bold"><a href={`/hi/blog/${post.id.replace(/\.md$/, '')}/`}>{post.data.title}</a></h2>
+          <h2 class="mt-2 text-2xl font-bold"><a href={`/hi/blog/${post.data.translationKey || post.id.replace(/-hi$/, '').replace(/\.md$/, '')}/`}>{post.data.title}</a></h2>
           <p class="mt-3">{post.data.description}</p>
-          <a class="mt-auto pt-5 font-semibold" href={`/hi/blog/${post.id.replace(/\.md$/, '')}/`}>Read article &rarr;</a>
+          <a class="mt-auto pt-5 font-semibold" href={`/hi/blog/${post.data.translationKey || post.id.replace(/-hi$/, '').replace(/\.md$/, '')}/`}>Read article &rarr;</a>
         </article>
       ))}
     </div>

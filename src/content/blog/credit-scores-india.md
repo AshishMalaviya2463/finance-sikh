@@ -106,8 +106,8 @@ The most useful outcome is an accurate report and borrowing history you can comf
 
 ## Continue reading
 
-- See how repayment schedules work in [EMI vs Prepayment](/blog/emi-vs-prepayment/).
-- Review household commitments in [Budgeting on an Indian Salary](/blog/budgeting-indian-salary/).
+- See how repayment schedules work in [EMI vs Prepayment](/en/blog/emi-vs-prepayment/).
+- Review household commitments in [Budgeting on an Indian Salary](/en/blog/budgeting-indian-salary/).
 
 ---
 
